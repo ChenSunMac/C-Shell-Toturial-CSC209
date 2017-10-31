@@ -4,7 +4,7 @@ We will explain the Dangling, Wild, Null and Void Pointer here.
 - Void Pointer is a Type
 - Null Pointer is a Value (0)
 
-### Dangling Pointer
+### Dangling Pointer (悬挂指针)
 
 A pointer pointing to a memory location that has been **deleted (or freed)** is called *dangling pointer*. There are three different ways where Pointer acts as dangling pointer
 
@@ -49,7 +49,7 @@ int main()
 ```
 
 
-### Void Pointer
+### Void Pointer（空型指针）
 Void pointer is a specific pointer type – void *. Void refers to the type. Basically the type of data that it points to is can be any.
 Void pointers cannot be dereferenced. It can however be done using typecasting the void pointer. 
 
@@ -77,7 +77,7 @@ int main()
 ```
 
 
-### NULL Pointer
+### NULL Pointer（）
 
 NULL Pointer is a pointer which is pointing to nothing. In case, if we don’t have address to be assigned to a pointer, then we can simply use NULL.
 
