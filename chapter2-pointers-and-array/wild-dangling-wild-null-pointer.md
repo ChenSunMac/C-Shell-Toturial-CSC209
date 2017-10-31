@@ -1,5 +1,8 @@
 We will explain the Dangling, Wild, Null and Void Pointer here.
 
+- Dangling and Wild Pointer may result in Segment Fault.
+- Void Pointer is a Type
+- Null Pointer is a Value (0)
 
 ### Dangling Pointer
 
