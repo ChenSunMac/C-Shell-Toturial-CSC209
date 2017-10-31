@@ -88,7 +88,8 @@ int main()
     return 0;
 }
 ```
-
+An uninitialized pointer stores an undefined value. A null pointer stores a defined value, but one that is defined by the environment to not be a valid address for any member or object.
+Null pointer is a value, while void pointer is a type
 
 ### Wild pointer
 
