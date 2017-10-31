@@ -10,10 +10,12 @@
   * String and Dynamically allocated memory
   * Pointer Basics
   * Advanced Pointers
+  * [Wild, Dangling, Wild, Null Pointer](chapter2-pointers-and-array/wild-dangling-wild-null-pointer.md)
 * [Chapter3-Struct and Union](pointer-basics.md)
 * Chapter4-File, Stream, in-out
 * [Chapter5-Binary file, Makefile, Large Program](chapter5-binary-file-makefile-large-program.md)
-* Chapter6-Process, Signal, System Call
+* [Chapter6-Process, Signal, System Call](chapter6-process-signal-system-call.md)
+  * Process
 * Chapter7-Sockets & Network
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * Chapter9-Thread and Process
