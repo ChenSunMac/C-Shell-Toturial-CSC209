@@ -77,7 +77,7 @@ int main()
 ```
 
 
-### NULL Pointer（）
+### NULL Pointer（零指针）
 
 NULL Pointer is a pointer which is pointing to nothing. In case, if we don’t have address to be assigned to a pointer, then we can simply use NULL.
 
@@ -94,7 +94,7 @@ int main()
 - An uninitialized pointer stores an undefined value. A null pointer stores a defined value, but one that is defined by the environment to not be a valid address for any member or object.
 - Null pointer is a value, while void pointer is a type
 
-### Wild pointer
+### Wild pointer （野指针）
 
 A pointer which has not been initialized to anything (not even NULL) is known as wild pointer. The pointer may be initialized to a non-NULL garbage value that may not be a valid address.
 
