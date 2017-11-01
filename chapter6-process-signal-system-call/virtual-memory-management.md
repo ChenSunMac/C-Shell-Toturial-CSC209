@@ -29,4 +29,6 @@ Page replacement algorithms are the techniques using which an Operating System d
 
 - Least Recently Used (LRU) algorithm
 
+Page which has not been used for the longest time in main memory is the one which will be selected for replacement.
+
 
