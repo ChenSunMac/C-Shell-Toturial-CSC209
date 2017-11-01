@@ -20,7 +20,3 @@ The memory allocated to each process is composed of a number of parts, usually r
 
 ![](/assets/typicalMemoryLayout.png)
 
-```c
-char glob
- 
-```
