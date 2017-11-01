@@ -22,7 +22,8 @@ The memory allocated to each process is composed of a number of parts, usually r
 
 
 ```c
-
+char globBuf[65536];  //uninitialized data segment
+int primes[] = {2, 3, 5, 7}; //intialized data segment
 
 ```
 
