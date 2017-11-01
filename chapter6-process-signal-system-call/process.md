@@ -19,3 +19,7 @@ A program is a file containing a range of information that describes how to con-
 The memory allocated to each process is composed of a number of parts, usually referred to as **segments**. The segments are list in the following:
 
 ![](/assets/typicalMemoryLayout.png)
+
+```c
+char 
+```
