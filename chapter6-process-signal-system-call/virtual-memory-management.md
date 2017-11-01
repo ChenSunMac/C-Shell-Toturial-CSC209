@@ -5,9 +5,5 @@
 也就是说利用这种技术，可以计算机可以有较之物理空间“看上去更大的空间”，所以才叫**virtual** Memory
 
 
-<p align="center">
-![](/assets/page.png)
-
-</p>
-
+![Page of ](/assets/page.png)
 
