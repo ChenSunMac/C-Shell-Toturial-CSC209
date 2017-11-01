@@ -23,6 +23,8 @@ Page replacement algorithms are the techniques using which an Operating System d
 - First In First Out (FIFO) algorithm 
    
      Easy to implement, keep a list, replace pages from the tail and add new pages at the head.
-- 
+- Optimal Page algorithm
+
+  
 
 
