@@ -21,7 +21,8 @@ The memory allocated to each process is composed of a number of parts, usually r
 ![The Memory Layout of Process](/assets/typicalMemoryLayout.png)
 
 
-```
+```c
+
 
 ```
 
