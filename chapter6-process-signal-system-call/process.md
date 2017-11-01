@@ -14,3 +14,5 @@ A program is a file containing a range of information that describes how to con-
 - Data
 - Shared-library and dynamic-linking information
 - Other information
+
+### Memory Layout of Process
