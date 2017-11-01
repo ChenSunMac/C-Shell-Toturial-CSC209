@@ -19,7 +19,9 @@ Modern microprocessors intended for general-purpose use, a **memory management u
 我们可以看到在这里，一个process的memory layout被大卸八块分别存储在实际的物理地址里。
 
 ### Page Replacement Algorithm（*）
-Page replacement algorithms are the techniques using which an Operating System decides which memory pages to swap out, write to disk when a page of memory needs to be allocated. 
+Page replacement algorithms are the techniques using which an Operating System decides which memory pages to swap out, write to disk when a page of memory needs to be allocated.
+ 我们可以通过 Pages  swap algorithm 来调度process需要的memory space
+   
 - First In First Out (FIFO) algorithm 
    
      Easy to implement, keep a list, replace pages from the tail and add new pages at the head.
