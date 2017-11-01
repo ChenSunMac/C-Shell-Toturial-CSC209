@@ -10,4 +10,7 @@ A program is a file containing a range of information that describes how to con-
 - Machine-language instructions
 
     (encode the algorithm of the program)
-- 
+- Program entry-point address
+- Data
+- Shared-library and dynamic-linking information
+- Other information
