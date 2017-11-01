@@ -46,5 +46,5 @@ int main(int argc, char *argc[]){ // stack frame for main()
 Each process has a process ID (PID), a positive integer that uniquely identifies the process on the system. 
 Process IDs are used and returned by a variety of **system calls**.
 ```c
-pid_t getpid(void);
+pid_t getpid(void);    //pid_t is a type, 
 ```
