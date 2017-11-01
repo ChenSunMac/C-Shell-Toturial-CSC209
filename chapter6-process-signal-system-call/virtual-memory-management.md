@@ -11,6 +11,7 @@ The aim of this technique is to make efficient use of both the CPU and RAM (phys
 
 Modern microprocessors intended for general-purpose use, a **memory management unit, or MMU**, is built into the hardware. The MMU's job is to translate virtual addresses into physical addresses.
 
+
 ![MMU Translate Virtual Addresses into Physical Addresses](/assets/MMU.jpg)
 
 
