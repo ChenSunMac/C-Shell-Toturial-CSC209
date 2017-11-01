@@ -16,3 +16,4 @@ A program is a file containing a range of information that describes how to con-
 - Other information
 
 ### Memory Layout of Process
+The memory allocated to each process is composed of a number of parts, usually referred to as segments.
