@@ -21,7 +21,8 @@ Modern microprocessors intended for general-purpose use, a **memory management u
 ### Page Replacement Algorithm
 Page replacement algorithms are the techniques using which an Operating System decides which memory pages to swap out, write to disk when a page of memory needs to be allocated. 
 - First In First Out (FIFO) algorithm 
-    Easy to implement, keep a list, replace pages from the tail and add new pages at the head.
+   
+     Easy to implement, keep a list, replace pages from the tail and add new pages at the head.
 - 
 
 
