@@ -14,3 +14,4 @@ Modern microprocessors intended for general-purpose use, a **memory management u
 ![MMU Translate Virtual Addresses into Physical Addresses](/assets/MMU.jpg)
 
 
+程序在运行时，OS把程序以page的形式，分页按需装入内存，注意，他不是连续装入的，有时候先装入这一块，有时候先装入那一块，甚至有一些呢虽然也在Virtual Memory里面，但是并不在RAM的物理地址中，有可能因为执行优先级低，放进了Secondary Memory (如上图)
