@@ -24,7 +24,7 @@ Page replacement algorithms are the techniques using which an Operating System d
    
      Easy to implement, keep a list, replace pages from the tail and add new pages at the head.
 - Optimal Page algorithm
-
+  Replace the page that will not be used for the longest period of time. Use the time when a page is to be used.
   
 
 
