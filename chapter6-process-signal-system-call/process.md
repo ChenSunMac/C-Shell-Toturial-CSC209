@@ -31,7 +31,13 @@ int square(int x){        // Allocated in stack frame for square()
     return result;        // Return value passed via register
 }
 
-
+int main(int argc, char *argc[]){ // stack frame for main() 
+    char *p;    // stack frame for main(), wild pointer
+    
+    p = malloc(1024);    // Points to memory in heap segment, not wild pointer anymore
+    
+    exit(EXIT_SUCCESS);
+}
 
 ```
 
