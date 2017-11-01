@@ -42,3 +42,6 @@ int main(int argc, char *argc[]){ // stack frame for main()
 ```
 
 ### PID and getpid()
+
+Each process has a process ID (PID), a positive integer that uniquely identifies the process on the system. 
+
