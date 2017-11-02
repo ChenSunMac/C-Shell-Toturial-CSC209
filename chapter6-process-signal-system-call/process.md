@@ -8,6 +8,7 @@ Process就是工厂的车间，它代表CPU所能处理的单个任务。任一�
 
 一个车间里，可以有很多工人。他们协同完成一个任务。线程就好比车间里的工人。一个进程可以包括多个线程。车间的空间是工人们共享的，比如许多房间是每个工人都可以进出的。这象征一个进程的内存空间是共享的，每个线程都可以使用这些共享内存。
 
+可是，每间房间的大小不同，有些房间最多只能容纳一个人，比如厕所。里面有人的时候，其他人就不能进去了。这代表一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存。
 #### Program
 One *program* may be used to construct many processes. 
 A program is a file containing a range of information that describes how to con- struct a process at run time. 
