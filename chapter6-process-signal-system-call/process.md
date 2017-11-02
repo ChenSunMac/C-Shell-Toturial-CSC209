@@ -68,7 +68,27 @@ pid_t fork(void);
 After the *fork()*, each process can modify the variables in its stack, data, and heap
 segments without affecting the other process.
 ```c
+int main(int argc, char* argv[]){
+    printf("I am : %d \n", (int) getpid());
+    pid_t pid = fork();
 
+    printf("fork returned: %d \n", (int) pid);
+
+    if (pid < 0) {
+	perror ("Fork Failed");
+    }
+
+// 	if (pid == 0) {
+// 		printf("I am the child with pid %d\n", (int) getpid());
+		// exit(0)
+// 	} 
+		//
+//		// we must be the parent
+//	    //printf("I am the parent\n");
+// 	else if (pid > 0 )
+// 	{
+// 		printf("I am the parent : %d \n", (int) getpid() );
+// 	}
 ```
 ### wait()
 
