@@ -6,7 +6,8 @@ A **process** is an instance of an executing program. Many processes may be runn
 
 Process就是工厂的车间，它代表CPU所能处理的单个任务。任一时刻，CPU总是运行一个进程，其他进程处于非运行状态。
 
-一个车间里，可以有很多工人。他们协同完成一个任务。
+一个车间里，可以有很多工人。他们协同完成一个任务。线程就好比车间里的工人。一个进程可以包括多个线程。车间的空间是工人们共享的，比如许多房间是每个工人都可以进出的。这象征一个进程的内存空间是共享的，每个线程都可以使用这些共享内存。
+
 #### Program
 One *program* may be used to construct many processes. 
 A program is a file containing a range of information that describes how to con- struct a process at run time. 
