@@ -176,3 +176,8 @@ with argument list argv, and environment list envp) into a process's memory.
 
 ***NOTE:*** Although stack, data, and heap segments are freshed, the child shares of all of the parent’s file descriptors (in text segment) **[Kernel 把这些部分标记成read-only]**
  
+### exit()
+
+```c
+void exit(int status); // 
+```
