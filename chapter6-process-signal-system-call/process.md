@@ -52,5 +52,12 @@ pid_t getpid(void);    //pid_t is a type, can be interpreted to int
 ### fork()
 
 
+system call
+
+### wait()
+
+
+### excurve()
+
 
 
