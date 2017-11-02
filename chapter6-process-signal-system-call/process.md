@@ -54,9 +54,9 @@ pid_t getppid(void);
 ```
 Returns process ID of **parent of caller**
 ### fork()
-*fork()* is used to create new process.
-The *fork() system call* creates a new process, the child, which is an almost exact
-duplicate of the calling process, the parent.
+*fork()* is used to create new process. 
+
+The *fork() system call* creates a new process, the child, which is an almost exact duplicate of the calling process, the parent.
 
 ```c
 \*
