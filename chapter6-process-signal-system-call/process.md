@@ -87,14 +87,9 @@ int main(int argc, char* argv[]){
 }
 ```
 #### Race Condition after fork()
-After a *fork()*, it is indeterminate which process—the parent or the child—next has
-access to the CPU. (On a multiprocessor system, they may both simultaneously
-get access to a CPU.)
+After a *fork()*, it is indeterminate which process—the parent or the child—next has access to the CPU. (On a multiprocessor system, they may both simultaneously get access to a CPU.)
 
-The example in the code segment mentioned above may have racing. To solve the race condition, we can
-- communicate between processes
-- 
-
+The example in the code segment mentioned above may have racing. To solve the race condition, we can let the active process can send a signal after completing the action; the other process waits for the signal.
 
 
 
