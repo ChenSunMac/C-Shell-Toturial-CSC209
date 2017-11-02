@@ -78,16 +78,13 @@ int main(int argc, char* argv[]){
 	perror ("Fork Failed");
     }
     if (pid == 0) {
-// 		printf("I am the child with pid %d\n", (int) getpid());
-		// exit(0)
-// 	} 
-		//
-//		// we must be the parent
-//	    //printf("I am the parent\n");
-// 	else if (pid > 0 )
-// 	{
-// 		printf("I am the parent : %d \n", (int) getpid() );
-// 	}
+    printf("I am the child with pid %d\n", (int) getpid());
+     exit(0)
+     } 
+             printf("I am the parent\n");
+    else if (pid > 0 ){
+        printf("I am the parent : %d \n", (int) getpid() );
+        }
 ```
 ### wait()
 
