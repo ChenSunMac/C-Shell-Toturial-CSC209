@@ -64,7 +64,6 @@ duplicate of the calling process, the parent.
 - In successfully created child: always returns 0
 *\
 pid_t fork(void); 
-
 ```
 
 ### wait()
