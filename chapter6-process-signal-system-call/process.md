@@ -128,6 +128,14 @@ int main(int argc, char* argv[]){
 传娃儿结束的状态 (可以查看*exit()*传的状态)
 
 ```c
+void doSomeWork(char *name){
+	const int NUM_TIMES = 5;
+	for (int i  = 0; i < NUM_TIMES; i++) {
+		sleep(rand() % 4);
+		printf("Done Work in %dth loop for %s \n", i, name);
+	}
+}
+
 void main(int argc, char* argv[]){
 	printf("I am : %d \n", (int) getpid());
 
