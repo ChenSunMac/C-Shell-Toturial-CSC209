@@ -62,7 +62,6 @@ duplicate of the calling process, the parent.
 \*
 - In parent: returns process ID of child on success, or –1 on error;
 - In successfully created child: always returns 0
-
 *\
 pid_t fork(void); 
 
