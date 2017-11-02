@@ -77,8 +77,7 @@ int main(int argc, char* argv[]){
     if (pid < 0) {
 	perror ("Fork Failed");
     }
-
-// 	if (pid == 0) {
+    if (pid == 0) {
 // 		printf("I am the child with pid %d\n", (int) getpid());
 		// exit(0)
 // 	} 
