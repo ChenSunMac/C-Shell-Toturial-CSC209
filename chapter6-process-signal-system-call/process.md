@@ -123,7 +123,7 @@ int main(int argc, char* argv[]){
 
 - Second, the termination status of the child is returned in the status argument of wait()
 
-传娃儿结束的状态 (可以查看exit()传的状态)
+传娃儿结束的状态 (可以查看*exit()*传的状态)
 
 ```c
 void main(int argc, char* argv[]){
