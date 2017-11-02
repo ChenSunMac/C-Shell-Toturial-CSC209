@@ -115,9 +115,15 @@ int main(int argc, char* argv[]){
 
 ### wait()
 
-*wait(&status)* system call has two purposes. First, if a child of this process has not yet terminated by calling *exit()*, then wait() suspends execution of the process until one of its children has terminated. 
+*wait(&status)* system call has two purposes. 
 
-Second, the termination status of the child is returned in the status argument of wait()
+- First, if a child of this process has not yet terminated by calling *exit()*, then wait() suspends execution of the process until one of its children has terminated. 
+
+等娃儿结束
+
+- Second, the termination status of the child is returned in the status argument of wait()
+
+传娃儿结束的状态
 
 ### excurve()
 
