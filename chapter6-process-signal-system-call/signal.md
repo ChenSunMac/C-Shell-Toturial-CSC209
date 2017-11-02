@@ -6,3 +6,6 @@ Signal may be sent to a process by the kernel, by another process, or by itself.
 ### kill()
 
 One process can send a signal to another process using the *kill()* system call, which is the analog of the *kill* shell command.
+```c
+int kill(pid_t pid, int sig); //Returns 0 on success, or –1 on error
+```
