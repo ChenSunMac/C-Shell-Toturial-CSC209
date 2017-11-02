@@ -119,6 +119,10 @@ int main(int argc, char* argv[]){
 
 *wait(&status)* system call has two purposes. 
 
+```
+pid_t wait(int *status); // Returns process ID of terminated child, or –1 on error
+```
+
 - First, if a child of this process has not yet terminated by calling *exit()*, then wait() suspends execution of the process until one of its children has terminated. 
 
 等娃儿结束
