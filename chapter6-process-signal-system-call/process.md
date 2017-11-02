@@ -48,3 +48,9 @@ Process IDs are used and returned by a variety of **system calls**.
 ```c
 pid_t getpid(void);    //pid_t is a type, can be interpreted to int
 ```
+
+### fork()
+
+
+
+
