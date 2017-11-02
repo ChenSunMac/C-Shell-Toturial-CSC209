@@ -4,7 +4,7 @@ A signal is a **notification to a process** that an event has occurred. Signals 
 Signal may be sent to a process by the kernel, by another process, or by itself. There is a range of standard signal types, each of which has a unique number and purpose.
 They are defined in MACRO as SIGXXX(number defined from 1 to 31 usually)
 
-
+By default, a signal either is ignored, terminates a process (with or without a core dump), stops a running process, or restarts a stopped process.
 
 ### kill()
 
