@@ -17,6 +17,7 @@
 * [Chapter6-Process, Signal, System Call](chapter6-process-signal-system-call.md)
   * [Virtual Memory Management](chapter6-process-signal-system-call/virtual-memory-management.md)
   * [Process](chapter6-process-signal-system-call/process.md)
+  * Pipes
 * Chapter7-Sockets & Network
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * Chapter9-Thread and Process
