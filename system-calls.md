@@ -17,3 +17,23 @@ Every modern operating system supports the two modes: **User Mode and Kernel Mod
 
 
 Hence, most programs in an OS run in user mode.
+
+
+## System Call
+
+When a program in user mode requires access to RAM or a hardware resource, it must ask the kernel to provide access to that resource. This is done via something called a system call.
+
+
+When a program makes a system call, the mode is switched from user mode to kernel mode. This is called a context switch.
+
+Then the kernel provides the resource which the program requested. After that, another context switch happens which results in change of mode from kernel mode back to user mode.
+
+
+Generally, system calls are made by the user level programs in the following situations:
+
+- Creating, opening, closing and deleting files in the file system.
+- Creating and managing new processes.
+- Creating a connection in the network, sending and receiving packets.
+- Requesting access to a hardware device, like a mouse or a printer.
+
+
