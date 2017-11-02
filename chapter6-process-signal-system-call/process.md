@@ -6,7 +6,7 @@ A **process** is an instance of an executing program. Many processes may be runn
 
 Process就是工厂的车间，它代表CPU所能处理的单个任务。任一时刻，CPU总是运行一个进程，其他进程处于非运行状态。
 
-
+一个车间里，可以有很多工人。他们协同完成一个任务。
 #### Program
 One *program* may be used to construct many processes. 
 A program is a file containing a range of information that describes how to con- struct a process at run time. 
