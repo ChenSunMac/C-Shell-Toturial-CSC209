@@ -160,7 +160,7 @@ void main(int argc, char* argv[]){
 
 
 
-### excurve()
+### exec()
 
 
 
