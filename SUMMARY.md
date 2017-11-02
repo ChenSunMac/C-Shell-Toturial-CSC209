@@ -18,6 +18,7 @@
   * [Virtual Memory Management](chapter6-process-signal-system-call/virtual-memory-management.md)
   * [Signal](chapter6-process-signal-system-call/signal.md)
   * [Process](chapter6-process-signal-system-call/process.md)
+  * [Orphan and Zombie](chapter6-process-signal-system-call/orphan-and-zombie.md)
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
 * Chapter7-Sockets & Network
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)

@@ -86,6 +86,8 @@ int main(int argc, char* argv[]){
 	return 0;
 }
 ```
+***NOTE:*** Although stack, data, and heap segments are freshed, the child shares of all of the parent’s file descriptors (in text segment) **[Kernel 把这些部分标记成read-only]**
+
 #### Race Condition after fork()
 After a *fork()*, it is indeterminate which process—the parent or the child—next has access to the CPU. (On a multiprocessor system, they may both simultaneously get access to a CPU.)
 
