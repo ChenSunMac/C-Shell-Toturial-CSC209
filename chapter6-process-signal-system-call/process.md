@@ -179,5 +179,5 @@ with argument list argv, and environment list envp) into a process's memory.
 ### exit()
 
 ```c
-void exit(int status); // 
+void exit(int status); // termination status of the process can pass to wait()
 ```
