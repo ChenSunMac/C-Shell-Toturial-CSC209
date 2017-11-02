@@ -113,7 +113,6 @@ int main(int argc, char* argv[]){
 }
 ```
 
-
 ### wait()
 
 wait(&status) system call has two purposes. First, if a child of this process
