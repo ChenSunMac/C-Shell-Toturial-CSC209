@@ -20,7 +20,7 @@ Hence, most programs in an OS run in user mode.
 
 
 ## System Call
-当你需要跳出OS给你圈的一亩三分地用其他资源的时候就需要它了
+当你需要跳出OS给你圈的一亩三分地去用其他资源的时候就需要它了
 When a program in user mode requires access to RAM or a hardware resource, it must ask the kernel to provide access to that resource. This is done via something called a system call.
 
 
