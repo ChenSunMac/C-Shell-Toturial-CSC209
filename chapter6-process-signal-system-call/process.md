@@ -164,5 +164,5 @@ void main(int argc, char* argv[]){
 with argument list argv, and environment list envp) into a process's memory.
 
 
-***NOTE***
-
+***NOTE:*** Although stack, data, and heap segments are freshed, the child shares of all of the parent’s file descriptors (in text segment)
+ 
