@@ -101,7 +101,7 @@ int main(int argc, char* argv[]){
 		perror ("Fork Failed");
 	}
 	if (pid == 0) {
-		WAIT_PARENT(); 
+		WAIT_PARENT();  \\parent first
 		printf("I am the child with pid %d\n", (int) getpid());
 		exit(0)
 	}
