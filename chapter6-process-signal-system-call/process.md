@@ -92,7 +92,6 @@ After a *fork()*, it is indeterminate which process—the parent or the child—
 The example in the code segment mentioned above may have racing. To solve the race condition, we can let the active process can send a signal after completing the action; the other process waits for the signal.
 
 
-
 ### wait()
 
 wait(&status) system call has two purposes. First, if a child of this process
