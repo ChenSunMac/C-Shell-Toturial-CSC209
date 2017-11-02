@@ -54,9 +54,9 @@ pid_t getppid(void);
 ```
 Returns process ID of **parent of caller**
 ### fork()
+*fork()* is used to create new process.
 
 
-system call
 
 ### wait()
 
