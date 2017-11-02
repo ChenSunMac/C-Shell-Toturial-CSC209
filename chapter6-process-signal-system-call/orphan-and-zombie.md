@@ -29,3 +29,8 @@ int main()
     return 0;
 }
 ```
+
+
+### Orphan Process
+父进程太快，没了以后子进程没了爹娘被 init process 收养
+Parent finishes execution and exits while the child process is still executing and is called an orphan process now
