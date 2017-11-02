@@ -86,6 +86,10 @@ int main(int argc, char* argv[]){
 	return 0;
 }
 ```
+#### Race Condition after fork()
+After a fork(), it is indeterminate which process—the parent or the child—next has
+access to the CPU. (On a multiprocessor system, they may both simultaneously
+get access to a CPU.)
 ### wait()
 
 
