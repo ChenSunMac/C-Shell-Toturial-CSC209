@@ -107,6 +107,7 @@ int main(int argc, char* argv[]){
 	}
 	else if (pid > 0 ){
 		printf("I am the parent : %d \n", (int) getpid() );
+		TELL_CHILD(pid); \\ tell child finished
 	}
 	return 0;
 }
