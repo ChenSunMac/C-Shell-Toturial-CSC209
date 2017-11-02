@@ -95,7 +95,6 @@ The example in the code segment mentioned above may have racing. To solve the ra
 
 ### wait()
 
-
 wait(&status) system call has two purposes. First, if a child of this process
 has not yet terminated by calling exit(), then wait() suspends execution of the
 process until one of its children has terminated. Second, the termination status
