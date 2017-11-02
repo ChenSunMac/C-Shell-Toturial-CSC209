@@ -116,7 +116,7 @@ int main(int argc, char* argv[]){
 ### wait()
 
 *wait(&status)* system call has two purposes. First, if a child of this process
-has not yet terminated by calling exit(), then wait() suspends execution of the
+has not yet terminated by calling *exit()*, then wait() suspends execution of the
 process until one of its children has terminated. Second, the termination status
 of the child is returned in the status argument of wait()
 
