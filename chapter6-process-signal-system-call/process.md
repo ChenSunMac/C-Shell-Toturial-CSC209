@@ -65,8 +65,8 @@ duplicate of the calling process, the parent.
 *\
 pid_t fork(void); 
 ```
-After the *fork()*, each process can modify the variables in its stack, data, and heap
-segments without affecting the other process.
+After the *fork()*, each process can modify the *variables in its stack, data, and heap
+segments* without affecting the other process.
 ```c
 int main(int argc, char* argv[]){
 	printf("I am : %d \n", (int) getpid());
