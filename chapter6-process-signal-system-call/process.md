@@ -90,6 +90,26 @@ int main(int argc, char* argv[]){
 After a *fork()*, it is indeterminate which process—the parent or the child—next has access to the CPU. (On a multiprocessor system, they may both simultaneously get access to a CPU.)
 
 The example in the code segment mentioned above may have racing. To solve the race condition, we can let the active process can send a signal after completing the action; the other process waits for the signal.
+```c
+int main(int argc, char* argv[]){
+	printf("I am : %d \n", (int) getpid());
+	pid_t pid = fork();
+	TELL_WAIT();
+	printf("fork returned: %d \n", (int) pid);
+
+	if (pid < 0) {
+		perror ("Fork Failed");
+	}
+	if (pid == 0) {
+		printf("I am the child with pid %d\n", (int) getpid());
+		exit(0)
+	}
+	else if (pid > 0 ){
+		printf("I am the parent : %d \n", (int) getpid() );
+	}
+	return 0;
+}
+```
 
 
 ### wait()
