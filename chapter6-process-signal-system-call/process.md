@@ -123,8 +123,39 @@ int main(int argc, char* argv[]){
 
 - Second, the termination status of the child is returned in the status argument of wait()
 
-传娃儿结束的状态
+传娃儿结束的状态 (可以查看exit()传的状态)
 
+```c
+void main(int argc, char* argv[]){
+	printf("I am : %d \n", (int) getpid());
+
+	// To check process in terminal -ps -a 
+	//sleep(5);
+	pid_t pid = fork();
+
+	srand((int) pid); // for rand() 
+
+	if (pid == 0) {
+		printf("I am the child with pid %d\n", (int) getpid());
+		doSomeWork("Child");
+		// wait 233
+		exit(233);
+	} 
+
+	printf("I am the parent, waiting for child to end\n");
+	doSomeWork("Parent");
+	// the wait() function returns child pid
+	pid_t childpid = wait(NULL);
+	printf("Parent Knows the child %d finished\n", (int) childpid);
+
+	int status = 0;
+	pid_t childpid = wait(&status);
+	printf("Parent Knows the child %d finished with status %d\n", (int) childpid, status);
+	
+	int childReturnValue = WEXITSTATUS(status);
+	printf("	Return Value was %d\n", (int) childReturnValue);
+}
+```
 
 
 
