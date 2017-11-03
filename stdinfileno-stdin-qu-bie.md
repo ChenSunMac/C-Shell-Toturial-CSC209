@@ -49,5 +49,5 @@ extern struct _IO_FILE *stdout;         /* Standard output stream.  */
 extern struct _IO_FILE *stderr;         /* Standard error output stream.  */
 ```
 
-
+对应的函数前面都有f开头，如fopen/fread/fwrite/fclose 标准库调用等
 
