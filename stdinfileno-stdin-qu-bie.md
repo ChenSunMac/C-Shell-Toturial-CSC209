@@ -42,6 +42,7 @@ int main(void)
 
 stdin类型为 FILE* , 也就是stream:
 ```c
+/* /usr/include/stdio.h */
 /* Standard streams.  */
 extern struct _IO_FILE *stdin;          /* Standard input stream.  */
 extern struct _IO_FILE *stdout;         /* Standard output stream.  */
