@@ -18,4 +18,21 @@ STDIN_FILENO, STDOUT_FILENO 的接口比较低级，他们实际上只是file de
 - STDERR_FILENO  = 2
 
 使用STDIN_FILENO的函数有：open, read, write, close等
- 
+
+```c
+#include<unistd.h>
+#define SIZE 10
+
+int main(void)
+{
+        int n;
+        char buf[SIZE];
+        //读取标准输入到buf中，返回读取字节数。
+        while(n=read(STDIN_FILENO,buf,SIZE)){   
+                if(n!=write(STDOUT_FILENO,buf,n)) 把buf 写到标准输出中
+                        perror("write error");
+        }
+        if(n<0) perror("read error");   
+        return 0;
+}
+```
