@@ -1,3 +1,4 @@
+# Read characters from the pipe and echo them to stdout
 ```c
 void read_from_pipe (int file){
   FILE *stream;
@@ -17,9 +18,7 @@ void write_to_pipe (int file) {
   fclose (stream);
 }
 
-int
-main (void)
-{
+int main (void) {
   pid_t pid;
   int mypipe[2];
 
