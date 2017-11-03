@@ -13,6 +13,9 @@
   * [Wild, Dangling, Wild, Null Pointer](chapter2-pointers-and-array/wild-dangling-wild-null-pointer.md)
 * [Chapter3-Struct and Union](pointer-basics.md)
 * [Chapter4-File, Stream, in-out](chapter4-file-stream-in-out.md)
+  * Redirection
+  * File
+  * File Stream
 * [Chapter5-Binary file, Makefile, Large Program](chapter5-binary-file-makefile-large-program.md)
 * [Chapter6-Process, Signal, System Call](chapter6-process-signal-system-call.md)
   * [Virtual Memory Management](chapter6-process-signal-system-call/virtual-memory-management.md)
