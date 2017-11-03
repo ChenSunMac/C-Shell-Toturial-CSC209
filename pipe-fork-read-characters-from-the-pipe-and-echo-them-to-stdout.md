@@ -23,30 +23,26 @@ int main (void) {
   int mypipe[2];
 
   /* Create the pipe. */
-  if (pipe (mypipe))
-    {
+  if (pipe (mypipe)){
       fprintf (stderr, "Pipe failed.\n");
       return EXIT_FAILURE;
     }
 
   /* Create the child process. */
   pid = fork ();
-  if (pid == (pid_t) 0)
-    {
+  if (pid == (pid_t) 0){
       /* This is the child process.
          Close other end first. */
       close (mypipe[1]);
       read_from_pipe (mypipe[0]);
       return EXIT_SUCCESS;
     }
-  else if (pid < (pid_t) 0)
-    {
+  else if (pid < (pid_t) 0){
       /* The fork failed. */
       fprintf (stderr, "Fork failed.\n");
       return EXIT_FAILURE;
     }
-  else
-    {
+  else{
       /* This is the parent process.
          Close other end first. */
       close (mypipe[0]);
