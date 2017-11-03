@@ -40,4 +40,4 @@ int main(void)
 
 ## stdin, stdout, stderr
 
-stdin类型为 FILE*
+stdin类型为 FILE*, 
