@@ -37,3 +37,6 @@ int main(void)
         return 0;
 }
 ```
+
+## stdin, stdout, stderr
+
