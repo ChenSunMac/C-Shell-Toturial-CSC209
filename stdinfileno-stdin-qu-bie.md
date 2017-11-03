@@ -7,4 +7,4 @@ STDIN_FILENO, STDOUT_FILENO 的接口比较低级，他们实际上只是file de
 - STDIN_FILENO = 0
 - STDOUT_FILENO = 1
 
-
+使用STDIN_FILENO的函数有：read、write、close等
