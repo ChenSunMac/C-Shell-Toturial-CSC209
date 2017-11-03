@@ -30,4 +30,5 @@
   * [CPU, Process, Thread 类比](cpu-process-thread-lei-bi.md)
   * [STDIN\_FILENO, stdin, File Descriptor](stdinfileno-stdin-qu-bie.md)
 * Useful Code Segment
+  * [\[Pipe, Fork\] - Read characters from the pipe and echo them to stdout.](pipe-fork-read-characters-from-the-pipe-and-echo-them-to-stdout.md)
 
