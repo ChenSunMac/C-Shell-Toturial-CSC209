@@ -55,5 +55,5 @@ extern struct _IO_FILE *stderr;         /* Standard error output stream.  */
 ## 简单的类比
 也就是说STDIN_FILENO, STDOUT_FILENO 是低级的接口，可以把它们看做是手机号码，在计算机系统里，只要知道STDIN_FILENO, STDOUT_FILENO标记的数字(int), 那么就可以知道对应的文件。就跟咱们打电话，只要输入号码，就可以知道整个移动网络里对应的那个手机终端。
 
-而stdin之类的是更高级的接口，更像是对这个手机的整个接口，好比拿手机去扫蓝牙/插USB
+而stdin之类的是更高级的接口，更像是对这个手机的整个接口，好比拿手机去扫蓝牙/插USB.
 
