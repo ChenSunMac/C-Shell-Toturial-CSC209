@@ -22,13 +22,13 @@
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
 * Chapter7-Sockets & Network
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
-* Chapter9-Thread and Process
-* Review
+* [Chapter9-Thread and Process](chapter9-thread-and-process.md)
+* [Review](review.md)
 * Appendix
   * [Command Line Arguments](command-line-arguments.md)
   * [System Calls](system-calls.md)
   * [CPU, Process, Thread 类比](cpu-process-thread-lei-bi.md)
   * [STDIN\_FILENO, stdin, File Descriptor](stdinfileno-stdin-qu-bie.md)
-* Useful Code Segment
+* [Useful Code Segment](useful-code-segment.md)
   * [\[Pipe, Fork\] - Read characters from the pipe and echo them to stdout.](pipe-fork-read-characters-from-the-pipe-and-echo-them-to-stdout.md)
 
