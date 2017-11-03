@@ -1,3 +1,5 @@
+![](/assets/File_table_and_inode_table.png)
+
 STDIN_FILENO, STDOUT_FILENO, stdin, stdout 都是Interface的接口，他们的用法和区别又是啥呢？
 
 ## STDIN_FILENO, STDOUT_FILENO

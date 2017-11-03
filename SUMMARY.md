@@ -28,6 +28,6 @@
   * [Command Line Arguments](command-line-arguments.md)
   * [System Calls](system-calls.md)
   * [CPU, Process, Thread 类比](cpu-process-thread-lei-bi.md)
-  * [STDIN\_FILENO, stdin 区别](stdinfileno-stdin-qu-bie.md)
+  * [STDIN\_FILENO, stdin, File Descriptor](stdinfileno-stdin-qu-bie.md)
 * Useful Code Segment
 
