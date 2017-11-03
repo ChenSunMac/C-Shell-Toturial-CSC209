@@ -40,4 +40,10 @@ int main(void)
 
 ## stdin, stdout, stderr
 
-stdin类型为 FILE*, 
+stdin类型为 FILE* , 也就是stream:
+```c
+/* Standard streams.  */
+extern struct _IO_FILE *stdin;          /* Standard input stream.  */
+extern struct _IO_FILE *stdout;         /* Standard output stream.  */
+extern struct _IO_FILE *stderr;         /* Standard error output stream.  */
+```
