@@ -9,3 +9,4 @@
                                   EFAULT (fd array is not valid)                
 
   NOTES: fd[0] is set up for reading, fd[1] is set up for writing
+sd
