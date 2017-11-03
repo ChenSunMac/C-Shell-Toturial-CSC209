@@ -29,8 +29,9 @@ int main(void)
         char buf[SIZE];
         //读取标准输入到buf中，返回读取字节数。
         while(n=read(STDIN_FILENO,buf,SIZE)){   
-                if(n!=write(STDOUT_FILENO,buf,n)){ //把buf 写到标准输出中
-                        perror("write error");}
+                if(n!=write(STDOUT_FILENO,buf,n)){ 
+                        perror("write error");//把buf 写到标准输出中
+                }
         }
         if(n<0) perror("read error");   
         return 0;
