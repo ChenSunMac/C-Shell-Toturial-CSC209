@@ -16,7 +16,7 @@ SYSTEM CALL: pipe();
   NOTES: fd[0] is set up for reading, fd[1] is set up for writing
 ```
 
-### Example (Pipe in one Process)
+### Example (Pipe in One Process)
 The array of two file descriptors is **fd[2]**. Whatever is written to **fd[1]** will be read from **fd[0]**.
 
 ```c
