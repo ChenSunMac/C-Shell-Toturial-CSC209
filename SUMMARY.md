@@ -13,7 +13,7 @@
   * [Wild, Dangling, Wild, Null Pointer](chapter2-pointers-and-array/wild-dangling-wild-null-pointer.md)
 * [Chapter3-Struct and Union](pointer-basics.md)
 * [Chapter4-File, Stream, in-out](chapter4-file-stream-in-out.md)
-  * Redirection
+  * [Redirection](chapter4-file-stream-in-out/redirection.md)
   * File
   * File Stream
 * [Chapter5-Binary file, Makefile, Large Program](chapter5-binary-file-makefile-large-program.md)
@@ -23,7 +23,7 @@
   * [Process](chapter6-process-signal-system-call/process.md)
   * [Orphan and Zombie](chapter6-process-signal-system-call/orphan-and-zombie.md)
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
-* Chapter7-Sockets & Network
+* [Chapter7-Sockets & Network](chapter7-sockets-and-network.md)
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
 * [Review](review.md)
