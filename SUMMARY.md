@@ -34,4 +34,5 @@
   * [STDIN\_FILENO, stdin, File Descriptor](stdinfileno-stdin-qu-bie.md)
 * [Useful Code Segment](useful-code-segment.md)
   * [\[Pipe, Fork\] - Read characters from the pipe and echo them to stdout.](pipe-fork-read-characters-from-the-pipe-and-echo-them-to-stdout.md)
+  * [\[Pipe, Fork\] execute "ls \| tr e f"](pipe-fork-execute-ls-tr-e-f.md)
 
