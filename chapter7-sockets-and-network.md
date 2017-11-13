@@ -22,3 +22,7 @@ To be a bit precise, a socket is a **combination of IP address and port on one s
 
 So on each system a socket exists for a process interacting with the socket on other system over the network.
 
+简单来说, 通过Sockets, 我们能够实现关于不同applications在同一个甚至不同host上的交流
+
+
+## Internet 
