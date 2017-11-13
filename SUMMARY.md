@@ -23,7 +23,7 @@
   * [Process](chapter6-process-signal-system-call/process.md)
   * [Orphan and Zombie](chapter6-process-signal-system-call/orphan-and-zombie.md)
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
-* [Chapter7-Sockets & Network](chapter7-sockets-and-network.md)
+* [Chapter7-Sockets, IPC & Network](chapter7-sockets-and-network.md)
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
 * [Review](review.md)
