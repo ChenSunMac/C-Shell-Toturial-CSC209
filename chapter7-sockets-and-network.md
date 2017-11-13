@@ -13,3 +13,6 @@
 *How can two processes communicate across a network?*
 
 ## Sockets (套接字)
+
+Socket是计算机之间进行通信的一种约定或一种方式。通过 socket 这种约定，一台计算机可以接收其他计算机的数据，也可以向其他计算机发送数据。
+
