@@ -23,11 +23,23 @@ So on each system a socket exists for a process interacting with the socket on o
 
 简单来说, 通过Sockets, 我们能够实现关于不同applications在同一个甚至不同host上的交流
 
-## Internet Model and Protocals
+## Internet Model and Protocols
 
 There are two types of network communication models:
 - OSI
 - TCP/IP
 
 While *OSI* is more of a theoretical model, the **TCP/IP** networking model is the most popular and widely used.
+
+| Layer Name | Protocol | Address |
+| ------------- |:-------------:| -----:|
+| Application    | Telnet, SSH | Hostname |
+|        | E-mail | user@domain |
+|        | Web Browser | URL, http:... |
+| Transport  Layer   | 	Transmission Control Protocol  or  User Datagram Protocol      |  Port Numbers|
+| Internet Layer | Internet Protocol, routing  |  IP Address|
+|Link Layer| Network Interface Device : FastEthernet, GigE, WiFi (802.11a, b, g, n)| MAC Address|
+
+![The application on each host executes read and write operations as if the processes were directly connected to each other by some kind of data pipe. Every other detail of the communication is hidden from each process. ](/assets/IP_diagram.png)
+
 
