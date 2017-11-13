@@ -16,3 +16,9 @@
 
 Socket是计算机之间进行通信的一种约定或一种方式。通过 socket 这种约定，一台计算机可以接收其他计算机的数据，也可以向其他计算机发送数据。
 
+**Socket** is an end point of communication between two systems on a network. 
+
+To be a bit precise, a socket is a **combination of IP address and port on one system**. 
+
+So on each system a socket exists for a process interacting with the socket on other system over the network.
+
