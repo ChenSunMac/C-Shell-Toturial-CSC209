@@ -47,3 +47,18 @@ The application on each host executes read and write operations as if the proces
 ![Encapsulation of application data descending through the layers](/assets/data_IP.png)
 
 Encapsulation of application data descending through the layers
+
+我们可以看到IP协议对应于网络层，TCP协议对应于传输层，而HTTP协议对应于应用层;
+然而Socket又是啥呢？
+
+socket是对TCP/IP协议的封装和应用（程序员层面上）
+
+socket是对TCP/IP协议的封装，Socket本身并不是协议，而是一个调用接口（API），通过Socket，我们才能使用TCP/IP协议
+
+Socket的出现只是使得程序员更方便地使用TCP/IP协议栈而已，是对TCP/IP协议的抽象，从而形成了我们知道的一些最基本的函数接口，比如create、listen、connect、accept、send、read和write等等
+
+网络上有一个简单的类比： 
+- HTTP是轿车，提供了封装或者显示数据的具体形式；
+- Socket是发动机，提供了网络通信的能力。
+
+就好比底层的硬件实现了电脑，然而具体的操作还是需要程序员编的OS 和其他程序
