@@ -25,6 +25,7 @@
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
 * [Chapter7-Sockets, IPC & Network](chapter7-sockets-and-network.md)
   * [Socket](chapter7-sockets-and-network/socket.md)
+  * [code snippets](chapter7-sockets-and-network/code-snippets.md)
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
 * [Review](review.md)
