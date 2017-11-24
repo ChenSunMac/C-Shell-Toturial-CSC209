@@ -1,4 +1,4 @@
-# Socket
+# Socket Programming
 
 In a typical client-server scenario, applications communicate using sockets as follows:
 
@@ -31,3 +31,5 @@ or between applications on different hosts connected via a network).
 ### Socket Types
 Socket types are supported in both the UNIX and the Internet domains. 
 类比一下, 220V 和 110V都插座都是插座, 只是接的功率不一样, 在这里简单的把Socket Type 分为两类:
+
+
