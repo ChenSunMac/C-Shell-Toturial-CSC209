@@ -1,7 +1,7 @@
 # Socket Programming
 
 
-## socket() - 你好，我是个插孔
+## socket() - 你好，我是个插孔，这是我的fd，来插这儿
 In a typical client-server scenario, applications communicate using sockets as follows:
 
 * 每一个需要通讯的application都创造并拥有一个socket，这个socket是通讯的接口，就好比手机
