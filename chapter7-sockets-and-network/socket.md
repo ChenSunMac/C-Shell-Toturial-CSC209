@@ -37,4 +37,14 @@ Socket types are supported in both the UNIX and the Internet domains.
 NEED to EDIT
 -----------------
 
+---
+## bind() 你好，你插的是这儿，对就是这儿
 
+
+
+
+## connect() 你好，我想插你
+
+
+
+## 
