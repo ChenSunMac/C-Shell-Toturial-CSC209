@@ -60,15 +60,42 @@ int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 struct sockaddr {
 }
 ```
+
+### getsockname()
+
 ---
 ## connect() 你好，我想插你
 
 
 
 ## listen() 听说有人想搞朕
+```c
+int listen(int sockfd, int backlog); 
+// return 0 on success, or -1 on error
+```
+1. We can’t apply listen() to a connected socket—that is, a socket on which a connect() has been successfully performed or a socket returned by a call to accept(). 
 
 
+2. backlog used for handling pending connection (when server is accepting other clients)
+
+简而言之， 监听listener socket（not connected），并且用backlog去limit pending connections
+
+---
 
 ## accept() 好的，知道了，咱俩去那儿搞
+```c
+int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen);
+// return new fd on success, -1 on error
+```
+**accept()** create *new scoket*, and this new socket is connected to the *peer socket* that performed the **connect()**.
+
+*addr* points to a structure taht is used to return the socket address (of peer socket).
+
+- we can set *addr* and *addrlen* to NULL and 0 if we are not interested in the address of the peer socket
+
+### getpeername()
+
+Retrieve the peer's address later using the getpeername() system call
+
 
 
