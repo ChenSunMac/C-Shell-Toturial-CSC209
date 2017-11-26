@@ -32,9 +32,9 @@
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
 * [Review](review.md)
-  * C Programming
-  * Shell Programming
-* Appendix
+  * [C Programming](review/c-programming.md)
+  * [Shell Programming](review/shell-programming.md)
+* [Appendix](appendix.md)
   * [Command Line Arguments](command-line-arguments.md)
   * [System Calls](system-calls.md)
   * [CPU, Process, Thread 类比](cpu-process-thread-lei-bi.md)
