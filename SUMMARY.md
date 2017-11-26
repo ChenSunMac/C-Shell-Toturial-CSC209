@@ -26,7 +26,7 @@
 * [Chapter7-Sockets, IPC & Network](chapter7-sockets-and-network.md)
   * [Socket](chapter7-sockets-and-network/socket.md)
   * [Blocking and Byte Order](chapter7-sockets-and-network/blocking-and-byte-order.md)
-  * Select 
+  * [Select ](chapter7-sockets-and-network/select.md)
   * [code snippets](chapter7-sockets-and-network/code-snippets.md)
   * [Some Additional Things for Socket](chapter7-sockets-and-network/some-additional-things-for-socket.md)
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)

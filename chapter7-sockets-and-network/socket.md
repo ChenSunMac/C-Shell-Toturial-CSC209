@@ -33,16 +33,34 @@ or between applications on different hosts connected via a network).
 ### Socket Types
 Socket types are supported in both the UNIX and the Internet domains. 
 类比一下, 220V 和 110V都插座都是插座, 只是接的功率不一样, 在这里简单的把Socket Type 分为两类:
+1. Stream (SOCK_STREAM)
+    + reliable
+    + bidirectional
+2. Datagram sockets(SOCK_DGRAM)
+    + data transmission not reliable
 
-NEED to EDIT
------------------
+### Protocal
+一般都是0 （need to add stuff）..
+
+### Conclusion socket()
+
+**socket()**创建了一个插孔**listener fd**专门用来执行**bind()**以及监听。
+
 
 ---
 ## bind() 你好，你插的是这儿，对就是这儿
 
+```c
+int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+```
+**bind()** 把**sockfd**以及给定的 *sockaddr* 绑定起来了。
+也就是说这是一个把*无名socket*和**有名的地址**绑定起来的命令。
 
-
-
+```c
+struct sockaddr {
+}
+```
+---
 ## connect() 你好，我想插你
 
 
