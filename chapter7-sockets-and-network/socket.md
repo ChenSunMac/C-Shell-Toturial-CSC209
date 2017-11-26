@@ -65,9 +65,17 @@ struct sockaddr {
 
 ---
 ## connect() 你好，我想插你
+```c
+int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
+// return 0 on success, or -1 on error
+```
+
+**Connect()** is called from client side.
+
+这里的addr 以及 addrlen都是server端的那个**有名的地址**（和bind 那里的一样）
 
 
-
+---
 ## listen() 听说有人想搞朕
 ```c
 int listen(int sockfd, int backlog); 
