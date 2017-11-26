@@ -107,3 +107,6 @@ Retrieve the peer's address later using the getpeername() system call
 
 
 
+##close() 溜了溜了
+Terminating a stream socket connection
+
