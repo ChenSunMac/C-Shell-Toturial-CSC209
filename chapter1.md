@@ -29,7 +29,7 @@ The Definition of Process will be discussed under File I/O section
 
  - Memory Management
 
-   + Linux employs virtual memory management, a technique confers 2 main advantages 
+     + Linux employs virtual memory management, a technique confers 2 main advantages 
   
     + processes are isolated from each other and the kernel, 一个独立的进程不能 read or modify another process or Kernel  
     + increases the likelihood that, at any moment in time, there is at least one process that the CPU(s) can execute.
