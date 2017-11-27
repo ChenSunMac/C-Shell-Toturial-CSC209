@@ -34,11 +34,11 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 但是除了纯粹的文件内容，我们还需要知道文件的一些***meta data（data that describe data）***，比如文件的大小，创建日期，权限等等。
 
 那么 这些metadata的存放区域就是inode,当然也在硬盘里***(inode table区域)***。
-<br>
+
 硬盘格式化的时候，操作系统自动将硬盘分成两个区域。一个是数据区，存放文件数据；另一个是inode区（inode table），存放inode所包含的信息。
 
-<br>
-inode 里包含了
+
+**inode** 里包含了
 - 文件字节数
 - 拥有者id
 - group id
