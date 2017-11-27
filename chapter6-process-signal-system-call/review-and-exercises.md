@@ -8,15 +8,7 @@
 
 **2.** Open file descriptors are inherited across a fork call but not across an exec call.
 
-
-
-
-    
-
-
-2. 
-
-    ***ANSWER***: read will be blocked until at least one byte has been written to the pipe. 
+    + ***ANSWER***: read will be blocked until at least one byte has been written to the pipe. 
 
 
 
