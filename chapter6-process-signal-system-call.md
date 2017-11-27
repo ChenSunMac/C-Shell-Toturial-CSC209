@@ -24,6 +24,25 @@ The **child process** goes on either to execute a different set of functions in 
 Each process has a unique ***integer process identifier (PID)***. Each process also has a **parent process identifier (PPID)** attribute, which identifies the process that requested the kernel to create this process.
 
 
+## Interprocess Communication and Synchronization
+
+Linux and Unix provide rich set of mechanisms for ***interprocess communication (IPC)***:
+
+- *signals*: to indicate that an event has occurred;  Think it as ***Software Interrupt***
+
+- *Pipes*: to transfer data between processes;
+
+- *Sockets*: to transfer data from one process to another;
+
+- *file locking*: allows a process to lock regions of a file in order to prevent other processes from reading or updating the file contents
+
+- *message queues*: exchange messages (packets of data) between processes;
+
+- *semaphores*: synchronize the actions of processes
+
+- *shared memory*: Allows 2 or more processes to share a piece of memory
+
+
 ![overViewOfProcess](/assets/overViewOfProcess.png)
 
 Creating multiple processes can be a useful way of dividing up a task.
