@@ -36,8 +36,6 @@ su [options] [username]
 ```bash
 ls -l      #list segment using long listing option
 ```
-A example screen shot of the ls -l output
-
 
 #### What is Mode?
 
