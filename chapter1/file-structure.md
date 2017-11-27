@@ -68,7 +68,6 @@ ls -i example.txt
 # Disk space being used by File systems 查看每个硬盘分区的inode总数和已经使用的数量
 df -i
 ```
-
 系统内部这个过程分成三步：首先，系统找到这个文件名对应的inode号码；其次，通过inode号码，获取inode信息；最后，根据inode信息，找到文件数据所在的block，读出数据。
 
 
