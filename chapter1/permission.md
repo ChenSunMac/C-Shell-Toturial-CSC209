@@ -33,7 +33,7 @@ su [options] [username]
 
 ### Viewing Ownership and Permissions
 
-```sh
+```bash
 ls -l      #list segment using long listing option
 ```
 A example screen shot of the ls -l output
