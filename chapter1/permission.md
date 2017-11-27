@@ -78,7 +78,7 @@ One can use number to present the permission:
 Syntax：
 **chmod [OPTION]... MODE[,MODE]... FILE...**
 
-```sh
+```bash
 chmod u=rwx,g=rx,o=r myfile 
 ```
 Equivalent command using octal 八进制(然而只是因为有8个而已) permission
