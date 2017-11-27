@@ -57,11 +57,11 @@ ls -i example.txt
 #找到example.txt对应的inode
 ```
 
-
 每个inode节点的大小，一般是128字节或256字节。inode节点的总数，在格式化时就给定，一般是每1KB或每2KB就设置一个inode。假定在一块1GB的硬盘中，每个inode节点的大小为128字节，每1KB就设置一个inode，那么inode table的大小就会达到128MB，占整块硬盘的12.8%.
 
 ```sh
-df -i  //Disk space being used by File systems 查看每个硬盘分区的inode总数和已经使用的数量
+df -i  
+#Disk space being used by File systems 查看每个硬盘分区的inode总数和已经使用的数量
 ```
 
 系统内部这个过程分成三步：首先，系统找到这个文件名对应的inode号码；其次，通过inode号码，获取inode信息；最后，根据inode信息，找到文件数据所在的block，读出数据。
