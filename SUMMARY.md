@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Chapter1-File Structure, Permission, Simple C](chapter1.md)
-  * [File Structure](chapter1/file-structure.md)
+  * [File Structure & Inode](chapter1/file-structure.md)
   * [Permission](chapter1/permission.md)
   * [Simple Inout in C](chapter1/simple-inout-in-c.md)
 * [Chapter2-Pointers and Array](chapter2-pointers-and-array.md)
