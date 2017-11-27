@@ -53,7 +53,7 @@ int main(int argc, char **argv)
 ### Example \(Pipe between Parent and Child\)
 
 
-
+Following list the steps for creating a pipe to transfer data from a parent to a child 
 ```c
 int filedes[2];
 if (pipe(filedes) == -1) /* Create the pipe */
@@ -73,6 +73,10 @@ errExit("close");
 break;
 }
 ```
+
+
+
+![](/assets/pipe2.png)
 
 
 
