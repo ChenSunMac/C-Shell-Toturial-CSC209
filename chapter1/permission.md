@@ -52,7 +52,7 @@ For example, a Directory, which is the most common kind of special file, is iden
 
 
 
-**Permission Class**
+#### **Permission Class**
 
 - **r**, Read
 - **w**, Write
