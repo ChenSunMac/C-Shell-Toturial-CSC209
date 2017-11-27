@@ -107,7 +107,7 @@ chmod a=x                  #all user add execute permission to the file
 
 ```sh
 #Set the owner of textfile.txt to user Chen.
-chown Chain textfile.txt  
+chown Chen textfile.txt  
 chown -R Chain /files/work  # Recursively grant ownership of the directory /files/work, and all files and subdirectories, to user Chain.
 chgrp JoJoGroup textfile.txt # Change the owning group of the textfile to the group named JoJoGroup.
 ```
