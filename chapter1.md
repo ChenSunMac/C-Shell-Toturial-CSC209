@@ -16,5 +16,33 @@ The first attempt to standardize the operating system interface yielded POSIX.1,
 
 Linux separates implementation from distribution. Consequently, there is no single “official” Linux distribution. Each Linux distributor’s offering consists of a snapshot of the current stable kernel, with various patches applied.
 
+---
 ## Kernel
 Kernel in UNIX is more like the core Operating System - the central software that manages and allocates computer resources (i.e., the CPU, RAM, and devices).
+### Tasks performed by Kernel
+ - Process Scheduling
+The Definition of Process will be discussed under File I/O section
+
+  (***preemptive multitasking*** operating system)
+    + preemptive means the rules governing which processes receive use of the CPU and for how long are determined by the kernel process scheduler, rahter than processes themselves
+    + Multitasking means that multiple processes can simultaneously reside in memory and each may receive use of the CPU
+
+ - Memory Management
+
+   + Linux employs virtual memory management, a technique confers 2 main advantages 
+  
+    + processes are isolated from each other and the kernel, 一个独立的进程不能 read or modify another process or Kernel  
+    + increases the likelihood that, at any moment in time, there is at least one process that the CPU(s) can execute.
+
+   - file system
+
+   - Access to devices
+
+   The kernel provides programs with an interface that standardizes and simplifies access to devices, while at the same time arbitrating access by multiple processes to each device.
+
+  - Networking
+
+  
+  - **system call application programming interface (API)**:
+  <br>
+Processes can request the kernel to perform various tasks using kernel entry points known as system calls.
