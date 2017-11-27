@@ -70,6 +70,7 @@ df -i
 ```
 系统内部这个过程分成三步：首先，系统找到这个文件名对应的inode号码；其次，通过inode号码，获取inode信息；最后，根据inode信息，找到文件数据所在的block，读出数据。
 
+---
 ### HARD link and SOFT link 文件名与inode 分离的UNIX世界 
 
 Unix/Linux系统允许，多个文件名指向同一个inode号码。
@@ -83,9 +84,7 @@ ln file1.txt file2.txt
 
 创建目录时，默认会生成两个目录项："."和".."。前者的inode号码就是当前目录的inode号码，等同于当前目录的"硬链接"；后者的inode号码就是当前目录的父目录的inode号码，等同于父目录的"硬链接"。所以，任何一个目录的"硬链接"总数，总是等于2加上它的子目录总数（含隐藏目录）。
 
-文件A和文件B的inode号码虽然不一样，但是文件A的内容是文件B的路径。读取文件A时，系统会自动将访问者导向文件B。因此，无论打开哪一个文件，最终读取的都是文件B。这时，文件A就称为文件B的"软链接"（soft link）或者"符号链接（symbolic link）。
-
-这个和shortcut很像
+文件A和文件B的inode号码虽然不一样，但是文件A的内容是文件B的路径。读取文件A时，系统会自动将访问者导向文件B。因此，无论打开哪一个文件，最终读取的都是文件B。这时，文件A就称为文件B的"软链接"（soft link）或者"符号链接（symbolic link）。 这个和shortcut很像
 
 ```bash
 ln -s sourceFile1.txt linkfile.txt // create -soft LiNk to files
