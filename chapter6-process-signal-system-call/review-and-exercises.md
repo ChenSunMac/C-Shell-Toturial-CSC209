@@ -8,7 +8,5 @@
 
 **2.** Open file descriptors are inherited across a fork call but not across an exec call.
 
-    + ***ANSWER***: read will be blocked until at least one byte has been written to the pipe. 
-
-
+    + ***ANSWER***: all file descriptors opened by a program that calls exec() remain open across the exec() and are available for use by the new program. If we want to close certain unused file descriptors, the exec call use *close-on-exec* flag
 
