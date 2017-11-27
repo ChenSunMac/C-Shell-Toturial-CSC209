@@ -23,6 +23,7 @@
   * [Process](chapter6-process-signal-system-call/process.md)
   * [Orphan and Zombie](chapter6-process-signal-system-call/orphan-and-zombie.md)
   * [Pipes](chapter6-process-signal-system-call/pipes.md)
+  * [Review & Exercises](chapter6-process-signal-system-call/review-and-exercises.md)
 * [Chapter7-Sockets, IPC & Network](chapter7-sockets-and-network.md)
   * [Socket](chapter7-sockets-and-network/socket.md)
   * [Blocking and Byte Order](chapter7-sockets-and-network/blocking-and-byte-order.md)
