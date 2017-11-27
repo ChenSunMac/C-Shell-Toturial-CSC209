@@ -11,7 +11,7 @@ cat /etc/passwd    #catenate reads data from files, and outputs their contents s
 
 ***Groups*** are collections of zero or more users. A user belongs to a default group, and can also be a member of any of the other groups on a server.
 
-```sh
+```bash
 cat /etc/group    #catenate reads data from files, and outputs their contents standard output
 ```
 Or simply using *groups* command
