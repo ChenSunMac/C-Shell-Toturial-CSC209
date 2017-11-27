@@ -15,7 +15,13 @@ SYSTEM CALL: pipe();
 
   NOTES: fd[0] is set up for reading, fd[1] is set up for writing
 ```
+---
+- Pipe is a byte stream:
+    + The process reading from a pipe can read blocks of data of any size， regardless of the size of blocks written by the writing process
+    + The data passes through the pipe sequentially in byte (**not possible to use lseek()**)
 
+
+---
 ### Example \(Pipe in One Process\)
 
 The array of two file descriptors is **fd\[2\]**. Whatever is written to **fd\[1\]** will be read from **fd\[0\]**.
