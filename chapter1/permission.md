@@ -41,7 +41,7 @@ ls -l      #list segment using long listing option
 
 **File Type**
 
-2 Basic file types in linux: *Normal* and *Special*.
+Two Basic file types in linux: *Normal* and *Special*.
 
 **Normal files** are just plain files that can contain data.
 Identified by files with a hyphen **(-)**
