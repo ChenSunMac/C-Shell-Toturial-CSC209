@@ -3,7 +3,7 @@ In Linux, there are two types of users: system users and regular users. Traditio
 
 注:unix系统本身是针对实验室里老贵的机器的，那么就像实验室里其他死贵的机器一样，一开始就是很多人一起用的，现在家用机这个功能基本没啥用，但是在公司里区分员工权限还是比较靠谱的。
 
-all users information are contained in the */etc/passwd* file. One can print the passwd file with the following command
+all users information are contained in the (*/etc/passwd*) file. One can print the passwd file with the following command
 ```sh
 cat /etc/passwd    #catenate reads data from files, and outputs their contents standard output
 ```
