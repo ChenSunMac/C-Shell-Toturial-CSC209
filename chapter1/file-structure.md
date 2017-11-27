@@ -76,7 +76,7 @@ Unix/Linux系统允许，多个文件名指向同一个inode号码。
 
 这意味着，可以用不同的文件名访问同样的内容；对文件内容进行修改，会影响到所有文件名；但是，删除一个文件名，不影响另一个文件名的访问。这种情况就被称为"硬链接"（hard link）。
 
-```shell
+```bash
 ln file1.txt file2.txt // create hard LiNk to files
 ```
 
