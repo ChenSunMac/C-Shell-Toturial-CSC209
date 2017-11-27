@@ -80,7 +80,7 @@ switch (fork()) { /* Create a child process */
 
 
 ***NOTE***:
-Tt is **not usual** to have both the parent and child reading from a single pipe is that if two processes try to simultaneously read from a pipe, we can’t parent process be sure which process will be the first to succeed—the two processes race for data.
+Tt is **not usual** to have both the parent and child reading from a single pipe is that if two processes try to simultaneously read from a pipe, we cannot be sure which process will be the first to succeed—the two processes race for data.
 
 
 
