@@ -31,22 +31,22 @@ Syntax:
 su [options] [username]
 
 
-### Viewing Ownership and Permissions
+## Viewing Ownership and Permissions
 
 ```bash
 ls -l      #list segment using long listing option
 ```
 
-#### What is Mode?
+### What is Mode?
 
-**File Type**
+#### **File Type**
 
 Two Basic file types in linux: *Normal* and *Special*.
 
-**Normal files** are just plain files that can contain data.
+#### **Normal files** are just plain files that can contain data.
 Identified by files with a hyphen **(-)**
 
-**Special files** can be identified by files that have a non-hyphen character,
+#### **Special files** can be identified by files that have a non-hyphen character,
 
 For example, a Directory, which is the most common kind of special file, is identified by the **d** character
 
