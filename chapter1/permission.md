@@ -82,7 +82,7 @@ Syntax：
 chmod u=rwx,g=rx,o=r myfile 
 ```
 Equivalent command using octal 八进制(然而只是因为有8个而已) permission
-```sh
+```bash
 chmod 754 myfile
 ```
 
