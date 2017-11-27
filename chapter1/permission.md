@@ -8,7 +8,7 @@ all users information are contained in the (*/etc/passwd*) file. One can print t
 cat /etc/passwd    #catenate reads data from files, and outputs their contents standard output
 ```
 
-
+---
 ***Groups*** are collections of zero or more users. A user belongs to a default group, and can also be a member of any of the other groups on a server.
 
 ```bash
@@ -19,7 +19,7 @@ Or simply using *groups* command
 groups    #List a user’s group memberships.
 groups JoJoGroup #list user under this JoJoGroup
 ```
-
+---
 ***SuperUser***
 
 **sudo** ("*SUperuser DO*") allows a user with proper permissions to execute a command as another user, such as the superuser.
