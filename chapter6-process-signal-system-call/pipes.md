@@ -21,6 +21,9 @@ SYSTEM CALL: pipe();
     + The data passes through the pipe sequentially in byte (**not possible to use lseek()**)
 
 
+***NOTE***:
+Attempts to read from a pipe that is currently empty block until at least one byte has been written to the pipe. If the write end of a pipe is closed, then a process reading from the pipe will see end-of-file (i.e., read() returns 0) once it has read all remaining data in the pipe
+
 ---
 ### Example \(Pipe in One Process\)
 
