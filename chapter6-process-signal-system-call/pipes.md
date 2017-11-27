@@ -53,24 +53,24 @@ int main(int argc, char **argv)
 ### Example \(Pipe between Parent and Child\)
 
 
-Following list the steps for creating a pipe to transfer data from a parent to a child 
+Following list the steps for creating a pipe to transfer data from a parent to a child:
 ```c
 int filedes[2];
 if (pipe(filedes) == -1) /* Create the pipe */
-errExit("pipe");
+    errExit("pipe");
 switch (fork()) { /* Create a child process */
-case -1:
-errExit("fork");
-case 0: /* Child */
-if (close(filedes[1]) == -1) /* Close unused write end */
-errExit("close");
-/* Child now reads from pipe */
-break;
-default: /* Parent */
-if (close(filedes[0]) == -1) /* Close unused read end */
-errExit("close");
-/* Parent now writes to pipe */
-break;
+    case -1:
+        errExit("fork");
+    case 0: /* Child */
+        if (close(filedes[1]) == -1) /* Close unused write end */
+            errExit("close");
+        /* Child now reads from pipe */
+        break;
+    default: /* Parent */
+        if (close(filedes[0]) == -1) /* Close unused read end */
+            errExit("close");
+        /* Parent now writes to pipe */
+        break;
 }
 ```
 
