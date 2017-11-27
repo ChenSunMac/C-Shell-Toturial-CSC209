@@ -48,7 +48,7 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 - 文件数据block 位置
 
 查看inode 信息
-```sh
+```shell
 stat example.txt 
 #查看example.txt这个文件的inode信息
 ls -i 
