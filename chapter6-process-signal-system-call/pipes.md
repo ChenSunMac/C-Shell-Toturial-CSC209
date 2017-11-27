@@ -80,18 +80,7 @@ switch (fork()) { /* Create a child process */
 
 
 ***NOTE***:
-Tt is **not usual** to have both the parent and child reading from a single pipe is that if two processes try to simultaneously read from a pipe, we can’t parent process
-filedes[1] filedes[0]
-pipe
-child process
-filedes[1] filedes[0]
-a) After fork() b) After closing unused descriptors
-parent process
-filedes[1]
-pipe
-child process
-filedes[0]894 Chapter 44
-be sure which process will be the first to succeed—the two processes race for data
+Tt is **not usual** to have both the parent and child reading from a single pipe is that if two processes try to simultaneously read from a pipe, we can’t parent process be sure which process will be the first to succeed—the two processes race for data.
 
 
 
