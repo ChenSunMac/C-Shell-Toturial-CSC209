@@ -6,12 +6,22 @@ a *process* is an instance of an executing program. When a program is executed, 
 
 一个进程可以从逻辑上分为以下几个部分：
  - Text： Program Instructions, 参考MIPS Assembly 里的.text
- <br>
+
  - Data: static variables used by program, 参考Assembly里的.data
- <br>
+
  - Heap: area that program can dynamically allocate extra memory
-<br>
+
 - Stack: for function call, allocate storage for local variable and function call linkage information, 参考Assembly里recursion
+
+
+### Process creation and program execution
+A process can create a new process using the *fork()* system call. （实际上是Process用fork()对kernel进行system call，然后kernel创建了新的Process）
+
+The process that calls fork() is referred to as the parent process, and the new process is referred to as the child process.
+
+The **child process** goes on either to execute a different set of functions in the same code as the parent, or, frequently, to use the *execve()* system call to load and execute an entirely new program. An *execve()* call destroys the existing text, data, stack, and heap segments, replacing them with new segments based on the code of the new program.
+
+Each process has a unique ***integer process identifier (PID)***. Each process also has a **parent process identifier (PPID)** attribute, which identifies the process that requested the kernel to create this process.
 
 
 ![overViewOfProcess](/assets/overViewOfProcess.png)
