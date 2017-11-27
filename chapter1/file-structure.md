@@ -77,7 +77,8 @@ Unix/Linux系统允许，多个文件名指向同一个inode号码。
 这意味着，可以用不同的文件名访问同样的内容；对文件内容进行修改，会影响到所有文件名；但是，删除一个文件名，不影响另一个文件名的访问。这种情况就被称为"硬链接"（hard link）。
 
 ```bash
-ln file1.txt file2.txt // create hard LiNk to files
+// create hard LiNk to files
+$ ln file1.txt file2.txt 
 ```
 
 创建目录时，默认会生成两个目录项："."和".."。前者的inode号码就是当前目录的inode号码，等同于当前目录的"硬链接"；后者的inode号码就是当前目录的父目录的inode号码，等同于父目录的"硬链接"。所以，任何一个目录的"硬链接"总数，总是等于2加上它的子目录总数（含隐藏目录）。
