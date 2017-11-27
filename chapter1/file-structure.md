@@ -91,4 +91,4 @@ ln file1.txt file2.txt
 ln -s sourceFile1.txt linkfile.txt 
 ```
 
-打开一个文件以后，系统就以inode号码来识别这个文件，不再考虑文件名。因此，通常来说，系统无法从inode号码得知文件名，但是可以从inode知道owner。
+打开一个文件以后，系统就以inode号码来识别这个文件，不再考虑文件名。因此，通常来说，系统无法从inode号码得知文件名，但是可以从inode知道owner ID, group ID...
