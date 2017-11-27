@@ -29,11 +29,11 @@ One inode is allocated for each file and each directory.
 
 OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“块”(block), 一般是4KB，也就是8个sector.
 
-第二呢，就是文件，任何文件实际都是binary code，那么他们都存储在块里 ***（硬盘数据区）***
+第二呢，就是文件，任何文件实际都是binary code，那么他们都存储在块里 **（硬盘数据区）**
 
-但是除了纯粹的文件内容，我们还需要知道文件的一些***meta data（data that describe data）***，比如文件的大小，创建日期，权限等等。
+但是除了纯粹的文件内容，我们还需要知道文件的一些 **meta data（data that describe data）**，比如文件的大小，创建日期，权限等等。
 
-那么 这些metadata的存放区域就是inode,当然也在硬盘里***(inode table区域)***。
+那么 这些metadata的存放区域就是inode,当然也在硬盘里 **(inode table区域)**。
 
 硬盘格式化的时候，操作系统自动将硬盘分成两个区域。一个是数据区，存放文件数据；另一个是inode区（inode table），存放inode所包含的信息。
 
