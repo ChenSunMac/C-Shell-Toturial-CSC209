@@ -45,3 +45,9 @@ The Definition of Process will be discussed under File I/O section
   
 - **system call application programming interface (API)**:
   + Processes can request the kernel to perform various tasks using kernel entry points known as system calls.
+  
+  
+  
+  
+  
+  
