@@ -52,7 +52,7 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 stat example.txt 
 #查看example.txt这个文件的inode信息
 ls -i 
-#列出所在路径的文件并且显示inode号码  List Segment
+#列出所在路径的文件并且显示inode号码 
 ls -i example.txt 
 #找到example.txt对应的inode
 ```
