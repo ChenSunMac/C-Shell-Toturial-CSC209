@@ -76,7 +76,7 @@ One can use number to present the permission:
 
 **chmod** (CHange MODe) change the permissions of files or directories.
 Syntax：
-chmod [OPTION]... MODE[,MODE]... FILE...
+**chmod [OPTION]... MODE[,MODE]... FILE...**
 
 ```sh
 chmod u=rwx,g=rx,o=r myfile 
