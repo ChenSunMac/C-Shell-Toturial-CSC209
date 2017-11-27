@@ -6,7 +6,7 @@
 
 
 
-2 Open file descriptors are inherited across a fork call but not across an exec call.
+**2.** Open file descriptors are inherited across a fork call but not across an exec call.
 
 
 
