@@ -7,5 +7,5 @@ Every directory contains at least two entries:
 
 *.. (dot-dot)*, which is a link to its parent directory, for the root directory, it links to itself.
 
-Each process has a ***current working directory (cwd)***. This is the process’s “current location” within the single directory hierarchy, and it is from this directory that relative pathnames are interpreted for the process.
+Each process has a ***current working directory (cwd)***. This is the process's "current location" within the single directory hierarchy, and it is from this directory that relative pathnames are interpreted for the process.
 
