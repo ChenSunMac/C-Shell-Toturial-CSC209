@@ -50,7 +50,7 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 
 
 
-```sh
+```bash
 stat example.txt 
 ls -i 
 ls -i example.txt 
