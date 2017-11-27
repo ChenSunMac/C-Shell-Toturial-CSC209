@@ -87,7 +87,8 @@ ln file1.txt file2.txt
 文件A和文件B的inode号码虽然不一样，但是文件A的内容是文件B的路径。读取文件A时，系统会自动将访问者导向文件B。因此，无论打开哪一个文件，最终读取的都是文件B。这时，文件A就称为文件B的"软链接"（soft link）或者"符号链接（symbolic link）。 这个和shortcut很像
 
 ```bash
-ln -s sourceFile1.txt linkfile.txt // create -soft LiNk to files
+#create -soft LiNk to files
+ln -s sourceFile1.txt linkfile.txt 
 ```
 
 打开一个文件以后，系统就以inode号码来识别这个文件，不再考虑文件名。因此，通常来说，系统无法从inode号码得知文件名。
