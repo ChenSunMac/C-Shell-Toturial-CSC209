@@ -36,18 +36,27 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 
 硬盘格式化的时候，操作系统自动将硬盘分成两个区域。一个是数据区，存放文件数据；另一个是inode区（inode table），存放inode所包含的信息。
 
-
 **inode** 里包含了
-- 文件字节数
-- 拥有者id
-- group id
-- 读写以及执行权限
-- ctime (上次inode*change*的时间)； mtime (上一次内容(manipulate)变动的时间); atime(上一次文件打开的时间)
-- 链接数 （多少文件名指向这个inode）
-- 文件数据block 位置
+
+* 文件字节数
+* 拥有者id
+* group id
+* 读写以及执行权限
+* ctime \(上次inode_change_的时间\)； mtime \(上一次内容\(manipulate\)变动的时间\); atime\(上一次文件打开的时间\)
+* 链接数 （多少文件名指向这个inode）
+* 文件数据block 位置
 
 查看inode 信息
 
+
+
+```bash
+stat example.txt #查看example.txt这个文件的inode信息
+ls -i
+#列出所在路径的文件并且显示inode号码
+ls -i example.txt
+#找到example.txt对应的inode
+```
 
 
 
