@@ -7,7 +7,7 @@
 - System Administration part can be also automated.
 
 For example:
-```sh
+```bash
 #!/bin/sh                  # 指定脚本解释器，这里是用/bin/sh做解释器的
 cd ~                       # 切换到当前用户的home目录
 mkdir shell_tut            # 创建一个目录shell_tut
