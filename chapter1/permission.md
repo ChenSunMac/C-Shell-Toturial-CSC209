@@ -110,5 +110,6 @@ chmod a=x                  #all user add execute permission to the file
 chown Chen textfile.txt  
 # Recursively grant ownership of the directory /files/work, and all files and subdirectories, to user Chain.
 chown -R Chain /files/work  
-chgrp JoJoGroup textfile.txt # Change the owning group of the textfile to the group named JoJoGroup.
+# Change the owning group of the textfile to the group named JoJoGroup.
+chgrp JoJoGroup textfile.txt 
 ```
