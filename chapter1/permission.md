@@ -1,4 +1,4 @@
-### User, Group, SuperUser
+# User, Group, SuperUser
 In Linux, there are two types of users: system users and regular users. Traditionally, system users are used to run non-interactive or background processes on a system, while regular users used for logging in and running processes interactively.
 
 注:unix系统本身是针对实验室里老贵的机器的，那么就像实验室里其他死贵的机器一样，一开始就是很多人一起用的，现在家用机这个功能基本没啥用，但是在公司里区分员工权限还是比较靠谱的。
