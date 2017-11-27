@@ -5,6 +5,7 @@
   * [File Structure & Inode](chapter1/file-structure.md)
   * [Permission](chapter1/permission.md)
   * [Simple Inout in C](chapter1/simple-inout-in-c.md)
+  * [Review & Exercises](chapter1/review-and-exercises.md)
 * [Chapter2-Pointers and Array](chapter2-pointers-and-array.md)
   * Static Array
   * String and Dynamically allocated memory

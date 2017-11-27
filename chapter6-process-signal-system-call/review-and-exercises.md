@@ -6,7 +6,8 @@
 
 
 
-**2.** Open file descriptors are inherited across a fork call but not across an exec call.
+**2.** Open file descriptors are inherited across a fork call but not across an exec call. (2017 APRIL)
+
 
     + ***ANSWER***: all file descriptors opened by a program that calls exec() remain open across the exec() and are available for use by the new program. If we want to close certain unused file descriptors, the exec call use *close-on-exec* flag
 
