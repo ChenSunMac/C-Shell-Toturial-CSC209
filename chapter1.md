@@ -46,12 +46,16 @@ The Definition of Process will be discussed under File I/O section
 - **system call application programming interface (API)**:
   + Processes can request the kernel to perform various tasks using kernel entry points known as system calls.
   
-  
+---
 ## Shell  
 
 A ***shell*** is a special-purpose program designed to read commands typed by a user and execute appropriate programs in response to those commands. On UNIX systems, the shell is a user process.
 
+---
+## File I/O Model
 
+**Universality of I/O**
+This means that the same system calls (*open(), read(), write(), close()*, and so on) are used to perform I/O on all types of files, including devices.
 
   
   
