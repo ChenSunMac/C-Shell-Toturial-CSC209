@@ -48,6 +48,10 @@ The Definition of Process will be discussed under File I/O section
   
   
 ## Shell  
-  
+
+A ***shell*** is a special-purpose program designed to read commands typed by a user and execute appropriate programs in response to those commands. On UNIX systems, the shell is a user process.
+
+
+
   
   
