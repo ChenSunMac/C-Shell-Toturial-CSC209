@@ -51,14 +51,19 @@ OS在读取硬盘时，一般一次连续读取多个sector，也就是一个“
 
 
 ```bash
+#查看example.txt这个文件的inode信息
 stat example.txt 
+
+#列出所在路径的文件并且显示inode号码
 ls -i 
+
+#找到example.txt对应的inode
 ls -i example.txt 
 ```
 
-#查看example.txt这个文件的inode信息
 
-#列出所在路径的文件并且显示inode号码
-#找到example.txt对应的inode
+
+
+
 
 
