@@ -34,15 +34,15 @@ The Definition of Process will be discussed under File I/O section
     + processes are isolated from each other and the kernel, 一个独立的进程不能 read or modify another process or Kernel  
     + increases the likelihood that, at any moment in time, there is at least one process that the CPU(s) can execute.
 
-   - file system
+ - file system
 
-   - Access to devices
+ - Access to devices
 
    The kernel provides programs with an interface that standardizes and simplifies access to devices, while at the same time arbitrating access by multiple processes to each device.
 
-  - Networking
+- Networking
 
   
-  - **system call application programming interface (API)**:
-  <br>
-Processes can request the kernel to perform various tasks using kernel entry points known as system calls.
+- **system call application programming interface (API)**:
+
+  + Processes can request the kernel to perform various tasks using kernel entry points known as system calls.
