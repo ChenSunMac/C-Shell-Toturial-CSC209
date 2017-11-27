@@ -49,6 +49,20 @@ int main(int argc, char **argv)
     exit(0);
 }
 ```
+![](/assets/pipe1.png)
+### Example \(Pipe between Parent and Child\)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
