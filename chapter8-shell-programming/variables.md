@@ -51,3 +51,9 @@ if [ "$?" -ne "0" ]; then
   echo "Sorry, we had a problem there!"
 fi
 ```
+
+---
+# Wild Cards
+
+The asterisk character (***, also called "star") matches zero or more characters
+
