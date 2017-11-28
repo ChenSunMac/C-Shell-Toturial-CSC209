@@ -24,5 +24,5 @@ echo "MYVAR is: $MYVAR"
 
 另外还有几个符号类型的保留变量：**$@, $* $#**
 - **$@** is all parameters **$1 .. whatever** (除了**$0**以外所有的数字型, 所有argument)
-- **$***  
+- **$***  is similar to **$@** only **$*** does not preserve white space (As a general rule, use **$@** and avoid **$***)
 
