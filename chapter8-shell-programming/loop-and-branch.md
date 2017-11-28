@@ -20,8 +20,6 @@ do
 done
 ```
 
-
-
 ---
 ## While Loops
 
