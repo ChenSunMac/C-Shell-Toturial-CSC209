@@ -15,8 +15,10 @@ MYVAR="JOJOs BIZZARE ADVENTURE"
 echo "MYVAR is: $MYVAR"
 ```
 
+---
 ### Some Special Vairables
 
 首先我们来看看带数字类的保留的变量：**$0, $1, .. $9**
 - The variable **$0** is the basename of the program as it was called
 - **$1 .. $9** are the first 9 additional parameters the script was called with
+
