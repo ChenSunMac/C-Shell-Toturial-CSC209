@@ -1,5 +1,5 @@
 
-## Why Shell Script
+# Why Shell Script
 
 - Shell script can take input from user, file and output them on screen.
 - Save lots of time.
@@ -19,3 +19,13 @@ done                        # 循环体结束
 ```
 
 cd, mkdir, touch都是系统自带的程序，一般在/bin或者/usr/bin目录下。for, do, done是sh脚本语言的关键字。
+```bash
+#!/usr/bin/perl    # for perl script
+#!/usr/bin/python  # for python script 
+```
+## Philosophy
+
+- 脚本用的永远比写的多
+- 读的永远比用的多
+
+So try to be as **clear** and **efficiency** as possible
