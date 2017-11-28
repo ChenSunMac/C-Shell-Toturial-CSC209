@@ -28,4 +28,4 @@ cd, mkdir, touch都是系统自带的程序，一般在/bin或者/usr/bin目录�
 - 脚本用的永远比写的多
 - 读的永远比用的多
 
-So try to be as **clear** and **efficiency** as possible
+So try to be as **clear** and **efficiency** as possible.
