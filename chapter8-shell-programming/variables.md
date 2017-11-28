@@ -19,10 +19,10 @@ echo "MYVAR is: $MYVAR"
 ### Some Special Vairables
 
 首先我们来看看带数字类的保留的变量：**$0, $1, .. $9**
-- The variable **$0** is the basename of the program as it was called (相当于argv[0])
-- **$1 .. $9** are the first 9 additional parameters the script was called with(相当于argv[1], argv[2],...)
+- The variable **$0** is the basename of the program as it was called (相当于**argv[0]**)
+- **$1 .. $9** are the first 9 additional parameters the script was called with(相当于**argv[1]**, **argv[2]**,...)
 
 另外还有几个符号类型的保留变量：**$@, $* $#**
-- **$@** is all parameters **$1 .. whatever** (除了**$0**以外所有的数字型, 所有argument)
+- **$@** is all parameters **$1 .. whatever** (除了**$0**以外所有的数字型, 所有argument), 相当于**argv**
 - **$***  is similar to **$@** only **$*** does not preserve white space (As a general rule, use **$@** and avoid **$***)
-
+- **$#** is the number of parameters the script was called with **argc**
