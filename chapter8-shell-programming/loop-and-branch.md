@@ -9,8 +9,9 @@ In Bash, we have **for and while loops**
 
 **for** *variable* **in** *list*
 **do**
-stuff here 
+  stuff here 
 **done**
+
 ```bash
 #!/bin/sh
 for i in 1 2 3 4 5
@@ -23,6 +24,11 @@ done
 
 ---
 ## While Loops
+
+**while** [*Boolean Expression*]
+**do**
+  stuff here 
+**done**
 
 
 
