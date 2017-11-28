@@ -64,3 +64,5 @@ fi
 For example the pattern **123?** will match **123** and **1234**, but not **12345**. 一个皆有可能
 
 - ranges of characters enclosed in square brackets (**[ and ]**) match a single character within the set
+
+For example, **[A-Za-z]** matches any single uppercase or lowercase letter
