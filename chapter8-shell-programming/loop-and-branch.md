@@ -43,6 +43,28 @@ done
 
 # Branch
 
+基本的if...then...else... :
+
+```bash
+if [ ... ]
+then
+  # if-code
+else
+  # else-code
+fi
+```
+如果你喜欢elseif:
+
+```bash
+if  [ something ]; then
+ echo "Something"
+ elif [ something_else ]; then
+   echo "Something else"
+ else
+   echo "None of the above"
+fi
+```
+
 
 
 
