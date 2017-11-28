@@ -15,3 +15,6 @@ MYVAR="JOJOs BIZZARE ADVENTURE"
 echo "MYVAR is: $MYVAR"
 ```
 
+### Some Special Vairables
+
+首先我们来看看带数字类的保留的变量：**$0, $1, .. $9**
