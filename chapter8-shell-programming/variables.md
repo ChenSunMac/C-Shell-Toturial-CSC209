@@ -36,6 +36,7 @@ echo "My second parameter is $2"
 echo "All parameters are $@"
 ```
 
+---
 除了以上这些和当前run的环境相关的variables以外，还有
 - **$?** contains the exit value of the last run command
 - **$$** is the PID (Process IDentifier) of the currently running shell
