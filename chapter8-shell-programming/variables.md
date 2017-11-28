@@ -41,4 +41,12 @@ echo "All parameters are $@"
 - **$$** is the PID (Process IDentifier) of the currently running shell
 - **$!** is the PID of the last run background process
 
+一般debug复杂程序的时候可以用
 
+```bash
+#!/bin/sh
+/usr/test_Dir/test_program
+if [ "$?" -ne "0" ]; then
+  echo "Sorry, we had a problem there!"
+fi
+```
