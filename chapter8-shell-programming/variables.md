@@ -7,4 +7,4 @@ MY_MESSAGE="Hello World"
 echo $MY_MESSAGE
 ```
 
-The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. 
+The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. (但实际上还是以string的形式存储的)
