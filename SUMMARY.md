@@ -34,6 +34,7 @@
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
   * [Variables](chapter8-shell-programming/variables.md)
   * [Loop and Branch](chapter8-shell-programming/loop-and-branch.md)
+  * [Functions](chapter8-shell-programming/functions.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
 * [Review](review.md)
   * [C Programming](review/c-programming.md)
