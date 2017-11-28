@@ -22,3 +22,7 @@ echo "MYVAR is: $MYVAR"
 - The variable **$0** is the basename of the program as it was called
 - **$1 .. $9** are the first 9 additional parameters the script was called with
 
+另外还有几个符号类型的保留变量：**$@, $* $#**
+- **$@** is all parameters **$1 .. whatever** (除了**$0**以外所有的数字型, 所有argument)
+- **$***  
+
