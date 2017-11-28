@@ -26,3 +26,19 @@ echo "MYVAR is: $MYVAR"
 - **$@** is all parameters **$1 .. whatever** (除了**$0**以外所有的数字型, 所有argument), 相当于**argv**
 - **$***  is similar to **$@** only **$*** does not preserve white space (As a general rule, use **$@** and avoid **$***)
 - **$#** is the number of parameters the script was called with **argc**
+
+```bash
+#!/bin/sh
+echo "I was called with $# parameters" 
+echo "My name is $0"
+echo "My first parameter is $1"
+echo "My second parameter is $2"
+echo "All parameters are $@"
+```
+
+除了以上这些和当前run的环境相关的variables以外，还有
+- **$?** contains the exit value of the last run command
+- **$$** is the PID (Process IDentifier) of the currently running shell
+- **$!** is the PID of the last run background process
+
+
