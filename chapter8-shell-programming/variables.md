@@ -8,3 +8,9 @@ echo $MY_MESSAGE
 ```
 
 The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. (但实际上还是以string的形式存储的)
+
+```bash
+MYVAR="JOJOs BIZZARE ADVENTURE"
+echo "MYVAR is: $MYVAR"
+```
+
