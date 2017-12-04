@@ -21,6 +21,10 @@ var=$((2+2))
 | -lt | less than |
 | -ge | greater equal |
 | -le | less equal |
+| -o | OR |
+| -a | AND |
+
+
 
 
 ```bash
@@ -31,6 +35,13 @@ then
    echo "$a -eq $b : a is equal to b"
 else
    echo "$a -eq $b: a is not equal to b"
+fi
+
+if [ $a -lt 5 -o $b -gt 100 ]
+then
+   echo "$a -lt 100 -o $b -gt 100 : returns true"
+else
+   echo "$a -lt 100 -o $b -gt 100 : returns false"
 fi
 ```
 
