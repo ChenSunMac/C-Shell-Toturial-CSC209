@@ -4,9 +4,15 @@
 在shell 里面赋值用"="，但是要注意不能有空格，VAR=value是OK的，因为shell识别到"="以后就会执行赋值操作; 但是VAR = value不行，因为shell会认为VAR是一个程序从而去寻找相应的同名程序来执行
 ```bash
 MY_MESSAGE="Hello World"
+variable=value
+variable='value'
+variable="value"
 echo $MY_MESSAGE
 ```
-
+- 如果 value 包含了空白符，那么就必须使用引号包围起来。
+- 单引号： 原样输出，里面是什么就是什么
+- 双引号： 解析输出，先解析变量名和命令
+ 
 The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. (但实际上还是以string的形式存储的)
 
 ```bash
