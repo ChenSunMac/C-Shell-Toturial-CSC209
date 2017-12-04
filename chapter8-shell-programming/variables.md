@@ -91,7 +91,7 @@ For example the pattern **123?** will match **123** and **1234**, but not **1234
 For example, **[A-Za-z]** matches any single uppercase or lowercase letter
 
 ---
-# Command and Calculation in Shell
+# Command in Shell
 
 我们还可以再shell里面直接使用shell command 从而得到隐式赋值：
 有两种等价的形式：
@@ -101,6 +101,8 @@ variable=$(command)
 longFileList=`ls -l`
 date=`date +%H:%M:%S`
 ```
+
+
 
 
 
