@@ -11,7 +11,7 @@ var=$((2+2))
 * 在用expr的时候，表达式和运算符之间要有空格expr 2+2 是错的
 * 支持 +, -, \*, /, %, == ...
 
-### Relation operator:
+### Relation and Logic operator:
 
 | Operator | Task |
 | :--- | :--- |
