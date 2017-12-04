@@ -14,3 +14,13 @@ target ... : prerequisites ...
 	...
 	...
 ```
+
+
+# Testing with make
+
+当程序写好了希望用make来做项目的测试，那么我们希望make当中就应该有那么一个target 比如说是testSomething来做目标，然后出一个program.exe什么的：
+```
+testSomething :
+	program.exe
+```
+
