@@ -23,4 +23,9 @@ target ... : prerequisites ...
 testSomething :
 	program.exe
 ```
-
+再进阶一点呢，我们甚至可以用
+```
+testSomething :
+	program.exe < input.txt > output.txt
+	diff correct.txt output.txt
+```
