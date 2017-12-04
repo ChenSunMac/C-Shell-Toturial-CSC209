@@ -29,3 +29,5 @@ testSomething :
 	program.exe < input.txt > output.txt
 	diff correct.txt output.txt
 ```
+
+References: [](http://www.cs.toronto.edu/~penny/teaching/csc444-05f/maketutorial.html)
