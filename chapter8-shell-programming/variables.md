@@ -25,6 +25,11 @@ echo "MYVAR is: $MYVAR"
 - 以上是显式赋值(Explicitly),本篇文末还有隐式赋值的介绍
 
 
+最后如果希望删除变量，我们可以：
+```sh
+unset variable_name
+```
+
 ---
 ### Some Special Vairables
 
