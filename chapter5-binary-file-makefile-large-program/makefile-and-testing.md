@@ -30,4 +30,4 @@ testSomething :
 	diff correct.txt output.txt
 ```
 
-References: [](http://www.cs.toronto.edu/~penny/teaching/csc444-05f/maketutorial.html)
+References: [http://www.cs.toronto.edu/~penny/teaching/csc444-05f/maketutorial.html](http://www.cs.toronto.edu/~penny/teaching/csc444-05f/maketutorial.html)
