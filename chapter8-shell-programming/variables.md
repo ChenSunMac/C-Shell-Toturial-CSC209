@@ -81,8 +81,10 @@ For example, **[A-Za-z]** matches any single uppercase or lowercase letter
 # Command and Calculation in Shell
 
 我们还可以再shell里面直接使用shell command 从而得到隐式赋值：
-
+有两种等价的形式：
 ```sh
+variable=`command`
+variable=$(command)
 longFileList=`ls -l`
 date=`date +%H:%M:%S`
 ```
