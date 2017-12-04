@@ -29,3 +29,9 @@ cd, mkdir, touch都是系统自带的程序，一般在/bin或者/usr/bin目录�
 - 读的永远比用的多
 
 So try to be as **clear** and **efficiency** as possible.
+
+
+执行shell 很简单，只需要
+```sh
+sh filename.sh
+```

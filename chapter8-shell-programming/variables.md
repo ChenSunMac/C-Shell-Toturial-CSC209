@@ -15,6 +15,10 @@ MYVAR="JOJOs BIZZARE ADVENTURE"
 echo "MYVAR is: $MYVAR"
 ```
 
+- 声明变量不用$, 调用变量得用$
+- 以上是显式赋值(Explicitly),本篇文末还有隐式赋值的介绍
+
+
 ---
 ### Some Special Vairables
 
@@ -66,3 +70,10 @@ For example the pattern **123?** will match **123** and **1234**, but not **1234
 - ranges of characters enclosed in square brackets (**[ and ]**) match a single character within the set
 
 For example, **[A-Za-z]** matches any single uppercase or lowercase letter
+
+---
+# Command and Calculation in Shell
+
+
+
+
