@@ -1,7 +1,7 @@
 # Math Expressions
 
 以下三种都是完成2+2这样任务的
-```sh
+```bash
 val=`expr 2 + 2`
 var=$[2+2]
 var=$((2+2))
