@@ -78,6 +78,7 @@ For example, **[A-Za-z]** matches any single uppercase or lowercase letter
 
 ```sh
 longFileList=`ls -l`
+date=`date +%H:%M:%S`
 ```
 
 
