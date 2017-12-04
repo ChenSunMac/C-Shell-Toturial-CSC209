@@ -34,6 +34,7 @@
   * [Some Additional Things for Socket](chapter7-sockets-and-network/some-additional-things-for-socket.md)
 * [Chapter8-Shell Programming](chapter8-shell-programming.md)
   * [Variables](chapter8-shell-programming/variables.md)
+  * [Calculation in Shell](chapter8-shell-programming/calculation-in-shell.md)
   * [Loop and Branch](chapter8-shell-programming/loop-and-branch.md)
   * [Functions](chapter8-shell-programming/functions.md)
 * [Chapter9-Thread and Process](chapter9-thread-and-process.md)
