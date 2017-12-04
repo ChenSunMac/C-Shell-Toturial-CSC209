@@ -17,8 +17,8 @@ The shell does not care about types of variables; they may store strings, intege
 
 ```bash
 # like printf() in C
-MYVAR="JOJOs BIZZARE ADVENTURE"
-echo "MYVAR is: $MYVAR"
+MYVAR="BIZZARE ADVENTURE"
+echo "JOJOs: $MYVAR"
 ```
 
 - 声明变量不用$, 调用变量得用$
