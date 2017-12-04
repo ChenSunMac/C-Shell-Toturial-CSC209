@@ -9,7 +9,8 @@ variable='value'
 variable="value"
 echo $MY_MESSAGE
 ```
-如果 value 包含了空白符，那么就必须使用引号包围起来
+如果 value 包含了空白符，那么就必须使用引号包围起来。
+
 The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. (但实际上还是以string的形式存储的)
 
 ```bash
