@@ -17,8 +17,8 @@ echo $MY_MESSAGE
 nuts="NUTS!!!"
 var1='JOJO:${nuts}'
 var2="JOJO:${nuts}"
-echo $website1
-echo $website2
+echo $var1
+echo $var2
 ```
  
 The shell does not care about types of variables; they may store strings, integers, real numbers - anything you like. (但实际上还是以string的形式存储的)
