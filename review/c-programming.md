@@ -16,3 +16,14 @@ char ** parity_strings(char * s) {
 
 }
 ```
+
+```c
+int main() {
+    char s1[9] = "01234567";
+    char ** r = parity_strings(s1);
+    printf("Even positions are %s and odd positions are %s\n", r[0],r[1]);
+    char * s2 = "ABCDE";
+    r = parity_strings(s2);
+    printf("Even positions are %s and odd positions are %s\n", r[0],r[1]);
+}
+```
