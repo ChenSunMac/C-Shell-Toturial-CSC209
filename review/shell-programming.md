@@ -14,5 +14,9 @@ markall < classlist | grep TOTAL > results
 
 ```sh
 chmod o-rwx prog
-
 ```
+
+**3.** In the current directory, some of the files contain the string *FIX ME*. Write a shell command that counts the number of lines containing this phrase in the files ending in *.c*
+
+
+
