@@ -28,8 +28,27 @@ grep "FIX ME" *.c | wc
 **1.**  Write out the output for the following commands:
 
 ```sh
-
+y=thurs
+y='$y day'
+echo y
 ```
+
+```sh
+z="fri day"
+for piece in "$z"
+    do
+        echo "$piece *"
+    done
+```
+```sh
+z="fri day"
+for piece in $z
+    do
+        echo "$piece *"
+    done
+```
+
+
 
 
 
