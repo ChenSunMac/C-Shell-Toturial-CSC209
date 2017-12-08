@@ -23,4 +23,13 @@ chmod o-rwx prog
 grep "FIX ME" *.c | wc 
 ```
 
+# Shell program
+
+**1.**  Write out the output for the following commands:
+
+```sh
+
+```
+
+
 
