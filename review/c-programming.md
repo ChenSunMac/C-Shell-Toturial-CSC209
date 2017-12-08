@@ -5,6 +5,7 @@ Even positions are ACE and odd positions are BD
 ```
 Complete the function parity strings as described in the function comment. Your program should generate this output without making any changes to main. Your function must not change parameter *s*.
 
+**1(a)**
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,5 +26,18 @@ int main() {
     char * s2 = "ABCDE";
     r = parity_strings(s2);
     printf("Even positions are %s and odd positions are %s\n", r[0],r[1]);
+}
+```
+
+**1(b)** Which call in main() will fail if we want to change parameter *s*? and Why?
+
+**1(c)** The program as written has a memory leak in the main function. Explain where this is?
+
+**1(d)** Complete a function free all that could be added to the program to fix the memory leak. 
+
+```c
+void free_all( ) {
+
+
 }
 ```
