@@ -70,6 +70,18 @@ else
 fi
 ```
 
+**3.**  Write a shell program using loop to create five files named file1, file2,... file5. They should have the number of line corresponding to their name. For example, file4 should have 4 lines. It does not matter what content you put in the lines in files.
 
+```sh
+for i in 1 2 3 4 5; do
+    touch "file$i"
+    count=0
+    while [$count -lt $i]
+    do
+        count=`expr $count+1`
+        echo $i >> file$i
+    done
+done
+```
 
 
