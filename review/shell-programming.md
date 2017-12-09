@@ -56,7 +56,18 @@ for piece in $z
 
 
 ```sh
-
+if ["$1" -eq "-w"]; then
+    shift
+    length1=`wc -w "$1"`
+    length2=`wc -w "$2"`
+else
+    length1=`wc -l "$1"`
+    length2=`wc -l "$2"`
+if [$length1 -ge $length2]; then
+    cat "$1"
+else
+    cat "$2"
+fi
 ```
 
 
