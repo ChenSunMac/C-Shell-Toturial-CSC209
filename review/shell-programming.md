@@ -49,6 +49,16 @@ for piece in $z
 ```
 
 
+**2.**  Write a shell program *longer* that takes two filenames as command line arguments and prints to *stdout* the content of the file that is longer.  By default, the length is determined as the number of lines, but if the script is called with an optional -w argument (that must come before the filenames), it determines length based on the number of words instead.
+
+(longer File1 File2; ## length depends on line count)
+(longer -w File1 File2; ## length depends on word count)
+
+
+```sh
+
+```
+
 
 
 
