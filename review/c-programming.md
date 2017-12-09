@@ -51,3 +51,6 @@ char *s = "UofT";
 s[0] = 'V';
 printf("%s\n", s);
 ```
+program Crashes because string literal array are read-only.
+
+
