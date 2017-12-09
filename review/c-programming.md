@@ -44,5 +44,10 @@ void free_all( ) {
 
 ---
 
+**2.** What is the result of the following running snippets?
 
-
+```
+char *s = "UofT"
+s[0] = 'V'
+printf("%s\n", s);
+```
