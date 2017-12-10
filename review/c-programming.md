@@ -4,6 +4,11 @@
 
 **0.(b)** Find the bug:
 
+```c
+if (argc > 2){
+    char filename[32] = argv[2];
+}
+```
 
 
 
