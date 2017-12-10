@@ -116,5 +116,6 @@ No
 It can be before wait() call clear the process table. (孩子结束的太快)
 
 
+**5.**
 
 
