@@ -12,9 +12,6 @@ if (argc > 2){
 Cannot assign char * to char []. change to 
 ```
 char *filename = argv[2]
-
-
-
 ```
 
 
