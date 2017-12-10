@@ -111,6 +111,16 @@ ps -u jojo | wc -l        #or
 ps aux | grep jojo | wc -l
 ```
 
+**8.** Shell program in bash taht checks if folder "csc209" exists. If exists, print "EXISTS", else, creates it.
 
+```sh
+DIR="csc209"
+if [-d "$DIR"];
+then 
+    echo "EXISTS"
+else
+    mkdir "$DIR"
+fi
+```
 
 
