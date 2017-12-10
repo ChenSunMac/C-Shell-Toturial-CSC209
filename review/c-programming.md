@@ -3,7 +3,7 @@
 - Global variables should never be declared in header files.
 
 **0.(b)** Find the bug:
-
+**1**
 ```c
 if (argc > 2){
     char filename[32] = argv[2];
@@ -13,6 +13,13 @@ Need a constant expression as the initialisation value. Use strncpy or change to
 ```
 char *filename = argv[2]
 ```
+**2**
+```
+char s[32] = "welcome: ";
+strncat(s, argv[1], strlen(s));
+```
+
+
 
 
 
