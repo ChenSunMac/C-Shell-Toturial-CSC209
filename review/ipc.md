@@ -18,7 +18,7 @@
 int main(){
     if (fork()==0){
         if (fork()==0){
-            fprintf(stderr, "B");
+            fprintf(stderr, "A");
             exit(3);
         }else{
             fprintf(stderr, "B");
@@ -43,3 +43,4 @@ int main(){
 **3(b).** Write all possible output orders:
 
 **3(c).** Is it possible for a child process in this program to ever become an orphan? Explain:
+**ANSWER** : 3; ABC2DE, ACB2DE, BAC2DE, BCA2DE, CAB2DE, CBA2DE
