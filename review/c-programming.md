@@ -94,4 +94,18 @@ char **;  char;  r
 ```
 
 
+**6.** Complete the following C function that returns the number of bits that are set to 1 in the argument set.
+
+```c
+int count_ones(unsigned int set){
+    unsigned int count = 0;
+    while(n){
+        count += n%2;
+        n >> = 1;
+    }
+
+}
+
+```
+
 
