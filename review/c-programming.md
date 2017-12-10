@@ -109,3 +109,33 @@ int count_ones(unsigned int set){
 ```
 
 
+**7.** In A2, *freelist* was a linked list that contained the address and size of blocks that had been freed. THe freelist is kept in increasing order by *addr*. Adjacent blocks could be collapsed together. For example, if one block has addr:0x60400 and size: 0x10 and the next block has addr = 0x60410. then the two blocks can be combined into one.
+
+Write function *coalesce* that takes a list of blocks ordered by address and collapses all blocks that are adjacent into a single block. Returns the head of the list.
+
+
+```c
+struct block {
+    void * addr;
+    int size;
+    struct block *next;
+}
+```
+
+```c
+struct block *coalesce (struct block *list){
+    struct block current = list;
+    struct block next_node = current -> next;
+    
+    while (current -> next != NULL){
+        if (next_node -> addr == current->addr + current->size){
+            current->size = current->size + next_node->size;
+            current->next = next_node->next;
+            free(next_node)
+        }
+    }
+}
+```
+
+
+
