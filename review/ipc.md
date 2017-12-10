@@ -41,3 +41,5 @@ int main(){
 **3(a).** How Many processes including the original one are created?
  
 **3(b).** Write all possible output orders:
+
+**3(c).** Is it possible for a child process in this program to ever become an orphan? Explain:
