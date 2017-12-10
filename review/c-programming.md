@@ -137,6 +137,7 @@ struct block *coalesce (struct block *list){
             next_node = current->next;
         }
     }
+    return list;
 }
 ```
 
