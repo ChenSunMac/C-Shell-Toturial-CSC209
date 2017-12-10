@@ -15,8 +15,22 @@
 
 - A child process whose parent calls wait cannot become a zombie.
 
-- 
+- You can send a signal to a process you do not own.
 
+//F
+- You can send a signal to a process that is not related to the process sending the signal.
+
+//F
+- The function htonl() is used to convert a string to a port number.
+
+// CONVERT NUMBER to NUMBER
+- The bind call associaes a port number with the server process.
+
+// ASSOCIATE SOCKET FD to SERVER ADDR
+
+- When a process running in the background writes to stdout, the output appears on the screen.
+
+// this is how > &1 worked.
 
 
 
