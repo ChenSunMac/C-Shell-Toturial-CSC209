@@ -65,4 +65,12 @@ program Crashes because string literal array are read-only.
 **ANSWER**: Multiple definition.
 
 
+**4.** Write one line code that divides integer variable *a* by 2 without using division operator.
+
+```sh
+a=a>>1
+```
+
+
+
 

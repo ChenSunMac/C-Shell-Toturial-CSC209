@@ -23,11 +23,7 @@ chmod o-rwx prog
 grep "FIX ME" *.c | wc 
 ```
 
-**4.** Write one line code that divides integer variable *a* by 2 without using division operator.
 
-```sh
-a=a>>1
-```
 
 # Shell program
 
