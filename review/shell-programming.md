@@ -95,3 +95,12 @@ for file in `ls *.c`; do
 done
 echo $index
 ``` 
+
+
+**6.** One line command in bash shell to send the QUIT signal to the process with ID 718.
+
+```sh
+kill -QUIT 718 #or
+kill -SIGQUIT 718 #or
+kill -3 718
+```
