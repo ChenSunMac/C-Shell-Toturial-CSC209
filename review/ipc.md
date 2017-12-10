@@ -11,7 +11,11 @@
 
 - A process running in the background cannot be killed.
 
+- File descriptor are inherited across both fork and exec calls.
 
+- A child process whose parent calls wait cannot become a zombie.
+
+- 
 
 
 
