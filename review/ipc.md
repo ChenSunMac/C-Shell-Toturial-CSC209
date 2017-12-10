@@ -43,4 +43,4 @@ int main(){
 **3(b).** Write all possible output orders:
 
 **3(c).** Is it possible for a child process in this program to ever become an orphan? Explain:
-**ANSWER** : 3; ABC2DE, ACB2DE, BAC2DE, BCA2DE, CAB2DE, CBA2DE
+**ANSWER** : 3; ABC2DE, ACB2DE, BAC2DE, BCA2DE, CAB2DE, CBA2DE; Yes, the child of child could run slow and the original and first child could terminate first.
