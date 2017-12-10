@@ -54,3 +54,9 @@ printf("%s\n", s);
 program Crashes because string literal array are read-only.
 
 
+**3.** What kind of error are you likely to see if you declare a *global variable* inside of a header file?
+
+**ANSWER**: Multiple definition.
+
+
+
