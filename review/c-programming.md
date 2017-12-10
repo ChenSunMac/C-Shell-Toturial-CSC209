@@ -90,7 +90,7 @@ printf("%s\n", s);
 ``` 
 **5(b).** What is the type of &t and *p; and what is the value of p[2]?
 ```
-char **;  char;  
+char **;  char;  r
 ```
 
 
