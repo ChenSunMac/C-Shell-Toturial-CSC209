@@ -131,7 +131,11 @@ struct block *coalesce (struct block *list){
         if (next_node -> addr == current->addr + current->size){
             current->size = current->size + next_node->size;
             current->next = next_node->next;
+            free(next_node->addr)
+            current = current->next;
             free(next_node)
+            next_node = current->next;
+
         }
     }
 }
