@@ -16,14 +16,11 @@ markall < classlist | grep TOTAL > results
 chmod o-rwx prog
 ```
 
-**3.** In the current directory, some of the files contain the string *FIX ME*. Write a shell command that counts the number of lines containing this phrase in the files ending in *.c*
-
+**3.** In the current directory, some of the files contain the string _FIX ME_. Write a shell command that counts the number of lines containing this phrase in the files ending in _.c_
 
 ```sh
-grep "FIX ME" *.c | wc 
+grep "FIX ME" *.c | wc
 ```
-
-
 
 # Shell program
 
@@ -42,6 +39,7 @@ for piece in "$z"
         echo "$piece *"
     done
 ```
+
 ```sh
 z="fri day"
 for piece in $z
@@ -50,12 +48,10 @@ for piece in $z
     done
 ```
 
+**2.**  Write a shell program _longer_ that takes two filenames as command line arguments and prints to _stdout_ the content of the file that is longer.  By default, the length is determined as the number of lines, but if the script is called with an optional -w argument \(that must come before the filenames\), it determines length based on the number of words instead.
 
-**2.**  Write a shell program *longer* that takes two filenames as command line arguments and prints to *stdout* the content of the file that is longer.  By default, the length is determined as the number of lines, but if the script is called with an optional -w argument (that must come before the filenames), it determines length based on the number of words instead.
-
-(longer File1 File2; ## length depends on line count)
-(longer -w File1 File2; ## length depends on word count)
-
+\(longer File1 File2; \#\# length depends on line count\)  
+\(longer -w File1 File2; \#\# length depends on word count\)
 
 ```sh
 if ["$1" -eq "-w"]; then
@@ -94,8 +90,7 @@ for file in `ls *.c`; do
     index=$[$index+1]
 done
 echo $index
-``` 
-
+```
 
 **6.** One line command in bash shell to send the QUIT signal to the process with ID 718.
 
@@ -106,6 +101,7 @@ kill -3 718
 ```
 
 **7.** One line command in bash shell to retrieve the number of processes being run by the user "jojo".
+
 ```sh
 ps -u jojo | wc -l        #or
 ps aux | grep jojo | wc -l
@@ -122,5 +118,6 @@ else
     mkdir "$DIR"
 fi
 ```
+
 
 

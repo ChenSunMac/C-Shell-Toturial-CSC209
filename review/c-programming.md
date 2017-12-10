@@ -1,38 +1,40 @@
-**0.(a)** True or False:
+**0.\(a\)** True or False:
 
-- Global variables should never be declared in header files.
+* Global variables should never be declared in header files.
 
-**0.(b)** Find the bug:
+**0.\(b\)** Find the bug:  
 **1**
+
 ```c
 if (argc > 2){
     char filename[32] = argv[2];
 }
 ```
-Need a constant expression as the initialisation value. Use strncpy or change to 
+
+Need a constant expression as the initialisation value. Use strncpy or change to
+
 ```
 char *filename = argv[2]
 ```
+
 **2**
+
 ```
 char s[32] = "welcome: ";
 strncat(s, argv[1], strlen(s));
 ```
 
-
-
-
-
-
-
 **1.** Consider the C program below which produces the output:
+
 ```
 Even positions are 0246 and odd positions are 1357
 Even positions are ACE and odd positions are BD
 ```
-Complete the function parity strings as described in the function comment. Your program should generate this output without making any changes to main. Your function must not change parameter *s*.
 
-**1(a)**
+Complete the function parity strings as described in the function comment. Your program should generate this output without making any changes to main. Your function must not change parameter _s_.
+
+**1\(a\)**
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -56,11 +58,11 @@ int main() {
 }
 ```
 
-**1(b)** Which call in main() will fail if we want to change parameter *s*? and Why?
+**1\(b\)** Which call in main\(\) will fail if we want to change parameter _s_? and Why?
 
-**1(c)** The program as written has a memory leak in the main function. Explain where this is?
+**1\(c\)** The program as written has a memory leak in the main function. Explain where this is?
 
-**1(d)** Complete a function free all that could be added to the program to fix the memory leak. 
+**1\(d\)** Complete a function free all that could be added to the program to fix the memory leak.
 
 ```c
 void free_all( ) {
@@ -78,25 +80,28 @@ char *s = "UofT";
 s[0] = 'V';
 printf("%s\n", s);
 ```
+
 program Crashes because string literal array are read-only.
 
 ---
-**3.** What kind of error are you likely to see if you declare a *global variable* inside of a header file?
+
+**3.** What kind of error are you likely to see if you declare a _global variable_ inside of a header file?
 
 **ANSWER**: Multiple definition.
 
-
-**4.(a)** Write one line code that divides integer variable *a* by 2 without using division operator.
+**4.\(a\)** Write one line code that divides integer variable _a_ by 2 without using division operator.
 
 ```c
 a=a>>1
 ```
-**4.(b)** Write one line code that sets all but the 5th bit in the integer variable a. The 5th bit remains unchanged.
+
+**4.\(b\)** Write one line code that sets all but the 5th bit in the integer variable a. The 5th bit remains unchanged.
+
 ```c
 a=a|~(1<<5)
 ```
 
-**5.** 
+**5.**
 
 ```c
 char s[11] = "0123456789";
@@ -105,15 +110,18 @@ char *p = s+3;
 strncpy(s+2, t, 9);
 printf("%s\n", s);
 ```
-**5(a).** What is the output?
+
+**5\(a\).** What is the output?
+
 ```
 01source
-``` 
-**5(b).** What is the type of &t and *p; and what is the value of p[2]?
+```
+
+**5\(b\).** What is the type of &t and \*p; and what is the value of p\[2\]?
+
 ```
 char **;  char;  r
 ```
-
 
 **6.** Complete the following C function that returns the number of bits that are set to 1 in the argument set.
 
@@ -126,14 +134,11 @@ int count_ones(unsigned int set){
     }
     return count;
 }
-
 ```
 
+**7.** In A2, _freelist_ was a linked list that contained the address and size of blocks that had been freed. THe freelist is kept in increasing order by _addr_. Adjacent blocks could be collapsed together. For example, if one block has addr:0x60400 and size: 0x10 and the next block has addr = 0x60410. then the two blocks can be combined into one.
 
-**7.** In A2, *freelist* was a linked list that contained the address and size of blocks that had been freed. THe freelist is kept in increasing order by *addr*. Adjacent blocks could be collapsed together. For example, if one block has addr:0x60400 and size: 0x10 and the next block has addr = 0x60410. then the two blocks can be combined into one.
-
-Write function *coalesce* that takes a list of blocks ordered by address and collapses all blocks that are adjacent into a single block. Returns the head of the list.
-
+Write function _coalesce_ that takes a list of blocks ordered by address and collapses all blocks that are adjacent into a single block. Returns the head of the list.
 
 ```c
 struct block {
@@ -147,7 +152,7 @@ struct block {
 struct block *coalesce (struct block *list){
     struct block current = list;
     struct block next_node = current -> next;
-    
+
     while (current -> next != NULL){
         if (next_node -> addr == current->addr + current->size){
             current->size = current->size + next_node->size;
