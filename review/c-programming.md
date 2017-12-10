@@ -83,7 +83,6 @@ char *t = "source";
 char *p = s+3;
 strncpy(s+2, t, 9);
 printf("%s\n", s);
-
 ```
 
 
