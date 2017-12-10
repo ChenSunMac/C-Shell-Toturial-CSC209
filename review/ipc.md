@@ -113,4 +113,4 @@ int main(){
 No
 
 **4(c).** Can process X or Y become an zombie?
-
+It can be before wait() call clear the process table.
