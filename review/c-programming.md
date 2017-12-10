@@ -65,10 +65,14 @@ program Crashes because string literal array are read-only.
 **ANSWER**: Multiple definition.
 
 
-**4.** Write one line code that divides integer variable *a* by 2 without using division operator.
+**4.(a)** Write one line code that divides integer variable *a* by 2 without using division operator.
 
-```sh
+```c
 a=a>>1
+```
+**4.(b)** Write one line code that sets all but the 5th bit in the integer variable a. The 5th bit remains unchanged.
+```c
+a=a|~(1<<5)
 ```
 
 
