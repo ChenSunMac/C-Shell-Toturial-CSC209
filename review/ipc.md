@@ -100,3 +100,10 @@ int main(){
 	return 0;
 }
 ```
+
+**4(a).** Write all possible output orders for this program.
+
+ ```
+ W 1;A 3;C 4; B 0;C 1
+ 
+ ``` 
