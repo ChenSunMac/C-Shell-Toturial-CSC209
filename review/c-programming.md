@@ -1,6 +1,9 @@
-**0.** True or False:
+**0.(a)** True or False:
 
 - Global variables should never be declared in header files.
+
+**0.(b)** Find the bug:
+
 
 
 
