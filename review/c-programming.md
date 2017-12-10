@@ -103,7 +103,7 @@ int count_ones(unsigned int set){
         count += n%2;
         n >> = 1;
     }
-
+    return count;
 }
 
 ```
