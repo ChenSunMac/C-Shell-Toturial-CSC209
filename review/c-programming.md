@@ -9,7 +9,7 @@ if (argc > 2){
     char filename[32] = argv[2];
 }
 ```
-
+Cannot assign char * to char []. 
 
 
 **1.** Consider the C program below which produces the output:
