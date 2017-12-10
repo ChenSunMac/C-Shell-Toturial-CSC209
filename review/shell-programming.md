@@ -86,4 +86,12 @@ for i in 1 2 3 4 5; do
 done
 ```
 
+**4.** Without using the wc program, write a bash shell program that prints the number of C source code files in the current working directory.
 
+```sh
+index=0
+for file in `ls *.c`; do
+    index=$[$index+1]
+done
+echo $index
+``` 
