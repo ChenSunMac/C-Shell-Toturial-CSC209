@@ -135,7 +135,6 @@ struct block *coalesce (struct block *list){
             current = current->next;
             free(next_node)
             next_node = current->next;
-
         }
     }
 }
