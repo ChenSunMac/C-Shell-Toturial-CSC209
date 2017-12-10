@@ -109,5 +109,5 @@ int main(){
  A 3;W 1;C 4; B 0;C 1
  ``` 
 
-
+**4(b).** Can process X or Y become an orphan?
 
