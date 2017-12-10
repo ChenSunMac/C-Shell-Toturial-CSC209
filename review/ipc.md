@@ -110,7 +110,7 @@ int main(){
  ``` 
 
 **4(b).** Can process X or Y become an orphan? 
-
+No
 
 **4(c).** Can process X or Y become an zombie?
 
