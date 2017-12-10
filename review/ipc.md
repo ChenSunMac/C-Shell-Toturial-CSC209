@@ -38,3 +38,6 @@ int main(){
     return 0;
 }
 ```
+**3(a).** How Many processes including the original one are created?
+ 
+**3(b).** Write all possible output orders:
