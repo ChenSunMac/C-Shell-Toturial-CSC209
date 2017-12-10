@@ -41,6 +41,7 @@
 * [Review](review.md)
   * [C Programming](review/c-programming.md)
   * [Shell Programming](review/shell-programming.md)
+  * [IPC](review/ipc.md)
 * [Appendix](appendix.md)
   * [Command Line Arguments](command-line-arguments.md)
   * [System Calls](system-calls.md)
