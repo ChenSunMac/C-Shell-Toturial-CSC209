@@ -88,7 +88,7 @@ printf("%s\n", s);
 ```
 01source
 ``` 
-**5(b).** What is the type of &t and *p?
+**5(b).** What is the type of &t and /*p?
 
 
 
