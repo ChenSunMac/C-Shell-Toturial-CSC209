@@ -15,6 +15,9 @@ char *filename = argv[2]
 ```
 
 
+
+
+
 **1.** Consider the C program below which produces the output:
 ```
 Even positions are 0246 and odd positions are 1357
