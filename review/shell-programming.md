@@ -105,5 +105,12 @@ kill -SIGQUIT 718 #or
 kill -3 718
 ```
 
+**7.** One line command in bash shell to retrieve the number of processes being run by the user "jojo".
+```sh
+ps -u jojo | wc -l        #or
+ps aux | grep jojo | wc -l
+```
+
+
 
 
