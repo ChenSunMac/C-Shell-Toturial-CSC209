@@ -5,7 +5,11 @@
 
 - In a parent process, the wait() call blocks until at least one child signals the parent with its exit status.
 
-- 
+- It is possible that a parent process exits before its child process finishes.
+
+- In a parent process a wait call always blocks.
+
+- A process running in the background cannot be killed.
 
 
 
