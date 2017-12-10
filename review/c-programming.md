@@ -84,5 +84,12 @@ char *p = s+3;
 strncpy(s+2, t, 9);
 printf("%s\n", s);
 ```
+**5(a).** What is the output?
+```
+01source
+``` 
+**5(b).** What is the type of &t and *p?
+
+
 
 
