@@ -9,7 +9,7 @@ if (argc > 2){
     char filename[32] = argv[2];
 }
 ```
-Cannot assign char * to char []. change to 
+Cannot assign char * to char []. Use strncpy or change to 
 ```
 char *filename = argv[2]
 ```
