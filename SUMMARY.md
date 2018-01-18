@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+  * [Environment Configure](environment-configure.md)
 * [Chapter1-File Structure, Permission, Simple C](chapter1.md)
   * [File Structure & Inode](chapter1/file-structure.md)
   * [Permission](chapter1/permission.md)
