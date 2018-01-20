@@ -8,10 +8,10 @@
   * [Simple Inout in C](chapter1/simple-inout-in-c.md)
   * [Review & Exercises](chapter1/review-and-exercises.md)
 * [Chapter2-Pointers and Array](chapter2-pointers-and-array.md)
-  * Static Array
-  * String and Dynamically allocated memory
-  * Pointer Basics
-  * Advanced Pointers
+  * [Static Array](chapter2-pointers-and-array/static-array.md)
+  * [String and Dynamically allocated memory](chapter2-pointers-and-array/string-and-dynamically-allocated-memory.md)
+  * [Pointer Basics](chapter2-pointers-and-array/pointer-basics.md)
+  * [Advanced Pointers](chapter2-pointers-and-array/advanced-pointers.md)
   * [Wild, Dangling, Wild, Null Pointer](chapter2-pointers-and-array/wild-dangling-wild-null-pointer.md)
 * [Chapter3-Struct and Union](pointer-basics.md)
 * [Chapter4-File, Stream, in-out](chapter4-file-stream-in-out.md)
