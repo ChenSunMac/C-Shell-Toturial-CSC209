@@ -16,8 +16,8 @@
 * [Chapter3-Struct and Union](pointer-basics.md)
 * [Chapter4-File, Stream, in-out](chapter4-file-stream-in-out.md)
   * [Redirection](chapter4-file-stream-in-out/redirection.md)
-  * File
-  * File Stream
+  * [File](chapter4-file-stream-in-out/file.md)
+  * [File Stream](chapter4-file-stream-in-out/file-stream.md)
 * [Chapter5-Binary file, Makefile, Large Program](chapter5-binary-file-makefile-large-program.md)
   * [MakeFile & Testing](chapter5-binary-file-makefile-large-program/makefile-and-testing.md)
 * [Chapter6-Process, Signal, System Call](chapter6-process-signal-system-call.md)
