@@ -53,4 +53,6 @@
   * [\[Pipe, Fork\] execute "ls \| tr e f"](pipe-fork-execute-ls-tr-e-f.md)
   * [Simple One Page HTML Server](simple-one-page-html-server.md)
   * [Sample Select\(\)](sample-select.md)
+* [Linux Commands](linux-commands.md)
+  * [NetCat](linux-commands/netcat.md)
 
