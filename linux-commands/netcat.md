@@ -11,5 +11,18 @@ NETCAT 基本功能有：
 nc -h # HELP information for nc
 ```
 
+### 利用netcat 实现chat server
+
+```
+nc -l 1234  # server end open listener on port 1234
+nc localhost 1234 # client end
+```
+
+假设我们通过ifconfig（linux）命令 或者 ipconfig（windows）命令获取我们本机网卡的ip为 192.168.0.3，那么client端可以直接连我们的网络IP：
+
+```
+nc 192.168.0.3 1234
+```
+
 
 
