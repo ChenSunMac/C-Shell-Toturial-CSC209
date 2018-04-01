@@ -24,9 +24,7 @@ nc localhost 1234 # client end
 nc 192.168.0.3 1234
 ```
 
-
-
-### 利用 netcat
+### 利用 netcat 实现
 
 
 
